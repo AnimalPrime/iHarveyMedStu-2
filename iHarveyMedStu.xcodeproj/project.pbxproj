@@ -1,0 +1,1698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* iHarveyMedStuAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* iHarveyMedStuAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
+		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
+		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
+		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		4410F16D15BDBE6D00485635 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410F16C15BDBE6D00485635 /* Default@2x.png */; };
+		4417431315B823FB0075246D /* P22.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431215B823FB0075246D /* P22.mp3 */; };
+		4417431615B824DC0075246D /* m36.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431515B824DC0075246D /* m36.mp3 */; };
+		4417431815B824F00075246D /* t36.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431715B824F00075246D /* t36.mp3 */; };
+		4417431A15B8254F0075246D /* a44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431915B8254F0075246D /* a44.mp3 */; };
+		4417431C15B825590075246D /* p44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431B15B825590075246D /* p44.mp3 */; };
+		4417431E15B825630075246D /* t44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431D15B825630075246D /* t44.mp3 */; };
+		4417432015B825740075246D /* m44.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417431F15B825740075246D /* m44.mp3 */; };
+		4417432215B825B90075246D /* a46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432115B825B90075246D /* a46.mp3 */; };
+		4417432415B825C10075246D /* m46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432315B825C10075246D /* m46.mp3 */; };
+		4417432615B825CB0075246D /* p46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432515B825CB0075246D /* p46.mp3 */; };
+		4417432815B825D90075246D /* t46.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432715B825D90075246D /* t46.mp3 */; };
+		4417432A15B825FA0075246D /* a49.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432915B825FA0075246D /* a49.mp3 */; };
+		4417432C15B826030075246D /* m49.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432B15B826030075246D /* m49.mp3 */; };
+		4417432E15B8260B0075246D /* p49.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4417432D15B8260B0075246D /* p49.mp3 */; };
+		4420EB3915F5B20B0033E016 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4420EB3515F5B20B0033E016 /* README.txt */; };
+		4420EB3A15F5B20B0033E016 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4420EB3615F5B20B0033E016 /* release_notes.txt */; };
+		4420EB3C15F5B28E0033E016 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4425014B15BC64B100EF1DB3 /* libz.dylib */; };
+		4420EB4815F7A91B0033E016 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4420EB4715F7A91B0033E016 /* icon.png */; };
+		4420EB4A15F7A96A0033E016 /* ricon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4420EB4915F7A96A0033E016 /* ricon.png */; };
+		442EB54A15ED06BC000532C9 /* 22AOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54315ED06BC000532C9 /* 22AOR.png */; };
+		442EB54B15ED06BC000532C9 /* 22AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54415ED06BC000532C9 /* 22AP.png */; };
+		442EB54C15ED06BC000532C9 /* 22JVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54515ED06BC000532C9 /* 22JVP.png */; };
+		442EB54D15ED06BC000532C9 /* 22MIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54615ED06BC000532C9 /* 22MIT.png */; };
+		442EB54E15ED06BC000532C9 /* 22PRECOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54715ED06BC000532C9 /* 22PRECOR.png */; };
+		442EB54F15ED06BC000532C9 /* 22PUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54815ED06BC000532C9 /* 22PUL.png */; };
+		442EB55015ED06BC000532C9 /* 22TRI.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB54915ED06BC000532C9 /* 22TRI.png */; };
+		442EB55815ED194F000532C9 /* 36AOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55115ED194F000532C9 /* 36AOR.png */; };
+		442EB55915ED194F000532C9 /* 36AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55215ED194F000532C9 /* 36AP.png */; };
+		442EB55A15ED194F000532C9 /* 36JVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55315ED194F000532C9 /* 36JVP.png */; };
+		442EB55B15ED194F000532C9 /* 36MIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55415ED194F000532C9 /* 36MIT.png */; };
+		442EB55C15ED194F000532C9 /* 36PRECOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55515ED194F000532C9 /* 36PRECOR.png */; };
+		442EB55D15ED194F000532C9 /* 36PUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55615ED194F000532C9 /* 36PUL.png */; };
+		442EB55E15ED194F000532C9 /* 36TRI.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55715ED194F000532C9 /* 36TRI.png */; };
+		442EB56615ED31A9000532C9 /* 49AOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB55F15ED31A9000532C9 /* 49AOR.png */; };
+		442EB56715ED31A9000532C9 /* 49AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56015ED31A9000532C9 /* 49AP.png */; };
+		442EB56815ED31A9000532C9 /* 49JVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56115ED31A9000532C9 /* 49JVP.png */; };
+		442EB56915ED31A9000532C9 /* 49MIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56215ED31A9000532C9 /* 49MIT.png */; };
+		442EB56A15ED31A9000532C9 /* 49PRECOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56315ED31A9000532C9 /* 49PRECOR.png */; };
+		442EB56B15ED31A9000532C9 /* 49PUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56415ED31A9000532C9 /* 49PUL.png */; };
+		442EB56C15ED31A9000532C9 /* 49TRI.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56515ED31A9000532C9 /* 49TRI.png */; };
+		442EB56E15ED33EF000532C9 /* 46AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56D15ED33EF000532C9 /* 46AP.png */; };
+		442EB57015ED3401000532C9 /* 46JVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB56F15ED3401000532C9 /* 46JVP.png */; };
+		442EB57215ED3421000532C9 /* 46MIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB57115ED3421000532C9 /* 46MIT.png */; };
+		442EB57615ED38D4000532C9 /* HypTenLungSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB57415ED38D3000532C9 /* HypTenLungSoundsViewController.m */; };
+		442EB57715ED38D4000532C9 /* HypTenLungSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB57515ED38D4000532C9 /* HypTenLungSoundsViewController.xib */; };
+		442EB58015EE4112000532C9 /* HypTenJVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB57E15EE4111000532C9 /* HypTenJVPViewController.m */; };
+		442EB58115EE4112000532C9 /* HypTenJVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB57F15EE4112000532C9 /* HypTenJVPViewController.xib */; };
+		442EB58515EE44A3000532C9 /* HypTenAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB58315EE44A2000532C9 /* HypTenAPViewController.m */; };
+		442EB58615EE44A3000532C9 /* HypTenAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB58415EE44A3000532C9 /* HypTenAPViewController.xib */; };
+		442EB58A15EE46F2000532C9 /* HypTenPreCordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB58815EE46F1000532C9 /* HypTenPreCordViewController.m */; };
+		442EB58B15EE46F2000532C9 /* HypTenPreCordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB58915EE46F2000532C9 /* HypTenPreCordViewController.xib */; };
+		442EB58F15EE49AF000532C9 /* HypTenFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB58D15EE49AD000532C9 /* HypTenFinalViewController.m */; };
+		442EB59015EE49AF000532C9 /* HypTenFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB58E15EE49AE000532C9 /* HypTenFinalViewController.xib */; };
+		442EB59415EE4B5D000532C9 /* HypTenHeartSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB59215EE4B5B000532C9 /* HypTenHeartSoundsViewController.m */; };
+		442EB59515EE4B5D000532C9 /* HypTenHeartSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB59315EE4B5C000532C9 /* HypTenHeartSoundsViewController.xib */; };
+		442EB59915EFB546000532C9 /* HypTenHSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB59715EFB544000532C9 /* HypTenHSInfoViewController.m */; };
+		442EB59A15EFB546000532C9 /* HypTenHSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB59815EFB545000532C9 /* HypTenHSInfoViewController.xib */; };
+		442EB59E15EFC509000532C9 /* QHypTenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB59C15EFC507000532C9 /* QHypTenTableViewController.m */; };
+		442EB59F15EFC509000532C9 /* QHypTenTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB59D15EFC508000532C9 /* QHypTenTableViewController.xib */; };
+		442EB5A315EFD205000532C9 /* QHypTenFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5A115EFD203000532C9 /* QHypTenFinalViewController.m */; };
+		442EB5A415EFD205000532C9 /* QHypTenFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5A215EFD204000532C9 /* QHypTenFinalViewController.xib */; };
+		442EB5AA15EFDD90000532C9 /* AngPecAppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5A815EFDD90000532C9 /* AngPecAppearanceViewController.m */; };
+		442EB5AB15EFDD90000532C9 /* AngPecAppearanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5A915EFDD90000532C9 /* AngPecAppearanceViewController.xib */; };
+		442EB5AF15EFE001000532C9 /* AngPecJVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5AD15EFE001000532C9 /* AngPecJVPViewController.m */; };
+		442EB5B015EFE001000532C9 /* AngPecJVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5AE15EFE001000532C9 /* AngPecJVPViewController.xib */; };
+		442EB5B815EFEA17000532C9 /* 39AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5B415EFEA17000532C9 /* 39AP.png */; };
+		442EB5B915EFEA17000532C9 /* 39CATD.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5B515EFEA17000532C9 /* 39CATD.png */; };
+		442EB5BA15EFEA17000532C9 /* 39JVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5B615EFEA17000532C9 /* 39JVP.png */; };
+		442EB5BB15EFEA17000532C9 /* 39PRECORD.png in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5B715EFEA17000532C9 /* 39PRECORD.png */; };
+		442EB5BF15EFEEFB000532C9 /* AngPecAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5BD15EFEEFA000532C9 /* AngPecAPViewController.m */; };
+		442EB5C015EFEEFB000532C9 /* AngPecAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5BE15EFEEFB000532C9 /* AngPecAPViewController.xib */; };
+		442EB5C415EFF142000532C9 /* AngPecPreCordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5C215EFF140000532C9 /* AngPecPreCordViewController.m */; };
+		442EB5C515EFF142000532C9 /* AngPecPreCordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5C315EFF141000532C9 /* AngPecPreCordViewController.xib */; };
+		442EB5C915EFF3B4000532C9 /* AngPecHeartSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5C715EFF3B2000532C9 /* AngPecHeartSoundsViewController.m */; };
+		442EB5CA15EFF3B4000532C9 /* AngPecHeartSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5C815EFF3B3000532C9 /* AngPecHeartSoundsViewController.xib */; };
+		442EB5CD15F04320000532C9 /* a39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5CC15F04320000532C9 /* a39.mp3 */; };
+		442EB5CF15F0432A000532C9 /* m39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5CE15F0432A000532C9 /* m39.mp3 */; };
+		442EB5D115F0433A000532C9 /* p39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5D015F0433A000532C9 /* p39.mp3 */; };
+		442EB5D315F04344000532C9 /* t39.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5D215F04344000532C9 /* t39.mp3 */; };
+		442EB5D715F0450A000532C9 /* AngPecHSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5D515F04508000532C9 /* AngPecHSInfoViewController.m */; };
+		442EB5D815F0450A000532C9 /* AngPecHSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5D615F04509000532C9 /* AngPecHSInfoViewController.xib */; };
+		442EB5DC15F1012D000532C9 /* AngPecCarAusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5DA15F100DB000532C9 /* AngPecCarAusViewController.m */; };
+		442EB5DD15F1012D000532C9 /* AngPecCarAusViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5DB15F100F8000532C9 /* AngPecCarAusViewController.xib */; };
+		442EB5E215F11CE3000532C9 /* AngPecFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5E015F11CE1000532C9 /* AngPecFinalViewController.m */; };
+		442EB5E315F11CE3000532C9 /* AngPecFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5E115F11CE2000532C9 /* AngPecFinalViewController.xib */; };
+		442EB5E715F120FA000532C9 /* QAngPecTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5E515F120F8000532C9 /* QAngPecTableViewController.m */; };
+		442EB5E815F120FA000532C9 /* QAngPecTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5E615F120F9000532C9 /* QAngPecTableViewController.xib */; };
+		442EB5EC15F1305C000532C9 /* QAngPecFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 442EB5EA15F13059000532C9 /* QAngPecFinalViewController.m */; };
+		442EB5ED15F1305C000532C9 /* QAngPecFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5EB15F1305B000532C9 /* QAngPecFinalViewController.xib */; };
+		442EB5EF15F28E6C000532C9 /* S3.mov in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5EE15F28E6C000532C9 /* S3.mov */; };
+		442EB5F115F3C769000532C9 /* S4.mov in Resources */ = {isa = PBXBuildFile; fileRef = 442EB5F015F3C769000532C9 /* S4.mov */; };
+		44460C1015C831CB0035929C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44460C0F15C831CB0035929C /* QuartzCore.framework */; };
+		44460C1215C831D40035929C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44460C1115C831D40035929C /* CoreLocation.framework */; };
+		44460C1415C831E80035929C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44460C1315C831E80035929C /* AssetsLibrary.framework */; };
+		446BD8EB15DD632B002893E9 /* 46PRECORD.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8EA15DD632B002893E9 /* 46PRECORD.png */; };
+		446BD8ED15DD65DD002893E9 /* 46AOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8EC15DD65DD002893E9 /* 46AOR.png */; };
+		446BD8F315DD6CC8002893E9 /* 46PUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8F215DD6CC8002893E9 /* 46PUL.png */; };
+		446BD8F515DD6E8A002893E9 /* 46TRI.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8F415DD6E8A002893E9 /* 46TRI.png */; };
+		446BD8FE15DD787C002893E9 /* 44AOR.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8F715DD787C002893E9 /* 44AOR.png */; };
+		446BD8FF15DD787C002893E9 /* 44AP.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8F815DD787C002893E9 /* 44AP.png */; };
+		446BD90015DD787C002893E9 /* 44JVP.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8F915DD787C002893E9 /* 44JVP.png */; };
+		446BD90115DD787C002893E9 /* 44MIT.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8FA15DD787C002893E9 /* 44MIT.png */; };
+		446BD90215DD787C002893E9 /* 44PRECORD.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8FB15DD787C002893E9 /* 44PRECORD.png */; };
+		446BD90315DD787C002893E9 /* 44PUL.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8FC15DD787C002893E9 /* 44PUL.png */; };
+		446BD90415DD787C002893E9 /* 44TRI.png in Resources */ = {isa = PBXBuildFile; fileRef = 446BD8FD15DD787C002893E9 /* 44TRI.png */; };
+		448F162D162E2F52001BE4EE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448F162C162E2F52001BE4EE /* Default-568h@2x.png */; };
+		4493660815FA3535002D58C8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44460C0D15C831560035929C /* SystemConfiguration.framework */; };
+		4493660A15FA3577002D58C8 /* libAppboyKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4493660915FA3577002D58C8 /* libAppboyKitLibrary.a */; };
+		4493660C15FA35C5002D58C8 /* AppboyKit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 4493660B15FA35C5002D58C8 /* AppboyKit.framework */; };
+		4493661B15FA3AAD002D58C8 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4420EB3415F5B20B0033E016 /* libTestFlight.a */; };
+		CF2C68E1120C78EF0088CE3E /* QAorValSclFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C68DF120C78EF0088CE3E /* QAorValSclFinalViewController.m */; };
+		CF2C68E2120C78EF0088CE3E /* QAorValSclFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2C68E0120C78EF0088CE3E /* QAorValSclFinalViewController.xib */; };
+		CF2C68E6120C795D0088CE3E /* QAorValSclTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C68E4120C795D0088CE3E /* QAorValSclTableViewController.m */; };
+		CF2C68E7120C795D0088CE3E /* QAorValSclTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2C68E5120C795D0088CE3E /* QAorValSclTableViewController.xib */; };
+		CF2C693E120C85270088CE3E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CF2C693D120C85270088CE3E /* Default.png */; };
+		CF2C6947120C89250088CE3E /* HypTenAppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF2C6945120C89250088CE3E /* HypTenAppearanceViewController.m */; };
+		CF2C6948120C89250088CE3E /* HypTenAppearanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF2C6946120C89250088CE3E /* HypTenAppearanceViewController.xib */; };
+		CF53B9AD1208556E0067F085 /* ProSelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9AB1208556E0067F085 /* ProSelTableViewController.m */; };
+		CF53B9AE1208556E0067F085 /* ProSelTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53B9AC1208556E0067F085 /* ProSelTableViewController.xib */; };
+		CF53B9B6120856FA0067F085 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9B4120856FA0067F085 /* QuizViewController.m */; };
+		CF53B9B7120856FA0067F085 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53B9B5120856FA0067F085 /* QuizViewController.xib */; };
+		CF53B9C712085A800067F085 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9C512085A800067F085 /* AboutViewController.m */; };
+		CF53B9C812085A800067F085 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53B9C612085A800067F085 /* AboutViewController.xib */; };
+		CF53BA1F120862540067F085 /* AorValSclAppearanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9D7120862540067F085 /* AorValSclAppearanceViewController.m */; };
+		CF53BA20120862540067F085 /* AorValSclJVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9D9120862540067F085 /* AorValSclJVPViewController.m */; };
+		CF53BA21120862540067F085 /* AorValSclAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9DB120862540067F085 /* AorValSclAPViewController.m */; };
+		CF53BA22120862540067F085 /* AorValSlcPreCorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9DD120862540067F085 /* AorValSlcPreCorViewController.m */; };
+		CF53BA23120862540067F085 /* AorValSclHeartSounds.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9DF120862540067F085 /* AorValSclHeartSounds.m */; };
+		CF53BA24120862540067F085 /* AorValSclHSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9E1120862540067F085 /* AorValSclHSInfoViewController.m */; };
+		CF53BA25120862540067F085 /* AorValSclFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9E3120862540067F085 /* AorValSclFinalViewController.m */; };
+		CF53BA26120862540067F085 /* InMurAppearenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9E6120862540067F085 /* InMurAppearenceViewController.m */; };
+		CF53BA27120862540067F085 /* InMurJVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9E8120862540067F085 /* InMurJVPViewController.m */; };
+		CF53BA28120862540067F085 /* InMurAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9EA120862540067F085 /* InMurAPViewController.m */; };
+		CF53BA29120862540067F085 /* InMurPreCorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9EC120862540067F085 /* InMurPreCorViewController.m */; };
+		CF53BA2B120862540067F085 /* InMurHSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9F0120862540067F085 /* InMurHSInfoViewController.m */; };
+		CF53BA2C120862540067F085 /* InMurFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9F2120862540067F085 /* InMurFinalViewController.m */; };
+		CF53BA2D120862540067F085 /* NormalAppearenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9F5120862540067F085 /* NormalAppearenceViewController.m */; };
+		CF53BA2E120862540067F085 /* NormalLungSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9F7120862540067F085 /* NormalLungSoundsViewController.m */; };
+		CF53BA2F120862540067F085 /* NormalHeartSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9F9120862540067F085 /* NormalHeartSoundsViewController.m */; };
+		CF53BA30120862540067F085 /* NormalLSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9FB120862540067F085 /* NormalLSInfoViewController.m */; };
+		CF53BA31120862540067F085 /* NormalJVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9FD120862540067F085 /* NormalJVPViewController.m */; };
+		CF53BA32120862540067F085 /* NormalAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53B9FF120862540067F085 /* NormalAPViewController.m */; };
+		CF53BA33120862540067F085 /* NormalPreCordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA01120862540067F085 /* NormalPreCordViewController.m */; };
+		CF53BA34120862540067F085 /* NormalFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA03120862540067F085 /* NormalFinalViewController.m */; };
+		CF53BA35120862540067F085 /* NormalHSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA05120862540067F085 /* NormalHSInfoViewController.m */; };
+		CF53BA36120862540067F085 /* IntroLungSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA08120862540067F085 /* IntroLungSoundsViewController.m */; };
+		CF53BA37120862540067F085 /* IntroLSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA0A120862540067F085 /* IntroLSInfoViewController.m */; };
+		CF53BA38120862540067F085 /* IntroAppearenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA0C120862540067F085 /* IntroAppearenceViewController.m */; };
+		CF53BA39120862540067F085 /* IntroHeartSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA0E120862540067F085 /* IntroHeartSoundsViewController.m */; };
+		CF53BA3A120862540067F085 /* IntroHSInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA10120862540067F085 /* IntroHSInfoViewController.m */; };
+		CF53BA3B120862540067F085 /* IntroJVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA12120862540067F085 /* IntroJVPViewController.m */; };
+		CF53BA3C120862540067F085 /* IntroPreCordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA14120862540067F085 /* IntroPreCordViewController.m */; };
+		CF53BA3D120862540067F085 /* IntroAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA16120862540067F085 /* IntroAPViewController.m */; };
+		CF53BA3E120862540067F085 /* IntroFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA18120862540067F085 /* IntroFinalViewController.m */; };
+		CF53BA3F120862540067F085 /* IntroFinalDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA1A120862540067F085 /* IntroFinalDViewController.m */; };
+		CF53BA40120862540067F085 /* IntroFinalDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA1B120862540067F085 /* IntroFinalDViewController.xib */; };
+		CF53BA41120862540067F085 /* IntroShakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA1D120862540067F085 /* IntroShakeViewController.m */; };
+		CF53BA42120862540067F085 /* IntroShakeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA1E120862540067F085 /* IntroShakeViewController.xib */; };
+		CF53BA4F1208626D0067F085 /* IntroTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA441208626D0067F085 /* IntroTableViewController.m */; };
+		CF53BA501208626D0067F085 /* NormalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA461208626D0067F085 /* NormalTableViewController.m */; };
+		CF53BA511208626D0067F085 /* AorValSclTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA481208626D0067F085 /* AorValSclTableViewController.m */; };
+		CF53BA521208626D0067F085 /* HypTenTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA4A1208626D0067F085 /* HypTenTableViewController.m */; };
+		CF53BA531208626D0067F085 /* AngPecTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA4C1208626D0067F085 /* AngPecTableViewController.m */; };
+		CF53BA541208626D0067F085 /* InMurTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA4E1208626D0067F085 /* InMurTableViewController.m */; };
+		CF53BA581208629C0067F085 /* AIMITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BA571208629C0067F085 /* AIMITableViewController.m */; };
+		CF53BA60120862C60067F085 /* AorValSclTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA59120862C60067F085 /* AorValSclTableViewController.xib */; };
+		CF53BA61120862C60067F085 /* IntroTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA5A120862C60067F085 /* IntroTableViewController.xib */; };
+		CF53BA62120862C60067F085 /* NormalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA5B120862C60067F085 /* NormalTableViewController.xib */; };
+		CF53BA63120862C60067F085 /* InMurTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA5C120862C60067F085 /* InMurTableViewController.xib */; };
+		CF53BA64120862C60067F085 /* HypTenTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA5D120862C60067F085 /* HypTenTableViewController.xib */; };
+		CF53BA65120862C60067F085 /* AngPecTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA5E120862C60067F085 /* AngPecTableViewController.xib */; };
+		CF53BA66120862C60067F085 /* AIMITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA5F120862C60067F085 /* AIMITableViewController.xib */; };
+		CF53BAE6120863420067F085 /* mit.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA74120863400067F085 /* mit.mov */; };
+		CF53BAE7120863420067F085 /* tri.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA75120863400067F085 /* tri.mov */; };
+		CF53BAE8120863420067F085 /* pul.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA76120863400067F085 /* pul.mov */; };
+		CF53BAE9120863420067F085 /* S1-S2 Filling Animation.mov in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA77120863400067F085 /* S1-S2 Filling Animation.mov */; };
+		CF53BAEA120863420067F085 /* AorValSclAppearanceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA79120863400067F085 /* AorValSclAppearanceViewController.xib */; };
+		CF53BAEB120863420067F085 /* AorValSclJVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA7A120863400067F085 /* AorValSclJVPViewController.xib */; };
+		CF53BAEC120863420067F085 /* AorValSclAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA7B120863400067F085 /* AorValSclAPViewController.xib */; };
+		CF53BAED120863420067F085 /* AorValSlcPreCorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA7C120863400067F085 /* AorValSlcPreCorViewController.xib */; };
+		CF53BAEE120863420067F085 /* AorValSclHeartSounds.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA7D120863400067F085 /* AorValSclHeartSounds.xib */; };
+		CF53BAEF120863420067F085 /* AorValSclHSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA7E120863400067F085 /* AorValSclHSInfoViewController.xib */; };
+		CF53BAF0120863420067F085 /* AorValSclFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA7F120863400067F085 /* AorValSclFinalViewController.xib */; };
+		CF53BAF1120863420067F085 /* 22Pulmonic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA83120863400067F085 /* 22Pulmonic.m4a */; };
+		CF53BAF2120863420067F085 /* 36Mitral.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA86120863400067F085 /* 36Mitral.m4a */; };
+		CF53BAF3120863420067F085 /* 36Tri.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA87120863400067F085 /* 36Tri.m4a */; };
+		CF53BAF8120863420067F085 /* 44Lung.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA8F120863410067F085 /* 44Lung.m4a */; };
+		CF53BAF9120863420067F085 /* 46Aortic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA92120863410067F085 /* 46Aortic.m4a */; };
+		CF53BAFA120863420067F085 /* 46Mitral.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA93120863410067F085 /* 46Mitral.m4a */; };
+		CF53BAFB120863420067F085 /* 46Pulmonic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA94120863410067F085 /* 46Pulmonic.m4a */; };
+		CF53BAFC120863420067F085 /* 46Tri.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA95120863410067F085 /* 46Tri.m4a */; };
+		CF53BAFD120863420067F085 /* 49Aortic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA98120863410067F085 /* 49Aortic.m4a */; };
+		CF53BAFE120863420067F085 /* 49Mitral.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA99120863410067F085 /* 49Mitral.m4a */; };
+		CF53BAFF120863420067F085 /* 49Pulmonic.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA9A120863410067F085 /* 49Pulmonic.m4a */; };
+		CF53BB01120863420067F085 /* newicon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA9D120863410067F085 /* newicon.png */; };
+		CF53BB02120863420067F085 /* ChadChest.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53BA9E120863410067F085 /* ChadChest.png */; };
+		CF53BB0A120863420067F085 /* Thumbs.db in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAA7120863420067F085 /* Thumbs.db */; };
+		CF53BB21120863420067F085 /* breath.png in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAC1120863420067F085 /* breath.png */; };
+		CF53BB2A120863420067F085 /* InMurHeartSoundsViewContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BACB120863420067F085 /* InMurHeartSoundsViewContoller.xib */; };
+		CF53BB2B120863420067F085 /* InMurFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BACC120863420067F085 /* InMurFinalViewController.xib */; };
+		CF53BB2C120863420067F085 /* InMurHSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BACD120863420067F085 /* InMurHSInfoViewController.xib */; };
+		CF53BB2D120863420067F085 /* InMurJVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BACE120863420067F085 /* InMurJVPViewController.xib */; };
+		CF53BB2E120863420067F085 /* InMurAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BACF120863420067F085 /* InMurAPViewController.xib */; };
+		CF53BB2F120863420067F085 /* InMurAppearenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD0120863420067F085 /* InMurAppearenceViewController.xib */; };
+		CF53BB30120863420067F085 /* InMurPreCorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD1120863420067F085 /* InMurPreCorViewController.xib */; };
+		CF53BB31120863420067F085 /* NormalLSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD3120863420067F085 /* NormalLSInfoViewController.xib */; };
+		CF53BB32120863420067F085 /* NormalAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD4120863420067F085 /* NormalAPViewController.xib */; };
+		CF53BB33120863420067F085 /* NormalPreCordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD5120863420067F085 /* NormalPreCordViewController.xib */; };
+		CF53BB34120863420067F085 /* NormalHSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD6120863420067F085 /* NormalHSInfoViewController.xib */; };
+		CF53BB35120863420067F085 /* NormalLungSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD7120863420067F085 /* NormalLungSoundsViewController.xib */; };
+		CF53BB36120863420067F085 /* NormalFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD8120863420067F085 /* NormalFinalViewController.xib */; };
+		CF53BB37120863420067F085 /* NormalHeartSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAD9120863420067F085 /* NormalHeartSoundsViewController.xib */; };
+		CF53BB38120863420067F085 /* NormalAppearenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BADA120863420067F085 /* NormalAppearenceViewController.xib */; };
+		CF53BB39120863420067F085 /* NormalJVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BADB120863420067F085 /* NormalJVPViewController.xib */; };
+		CF53BB3A120863420067F085 /* IntroLSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BADD120863420067F085 /* IntroLSInfoViewController.xib */; };
+		CF53BB3B120863420067F085 /* IntroHeartSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BADE120863420067F085 /* IntroHeartSoundsViewController.xib */; };
+		CF53BB3C120863420067F085 /* IntroJVPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BADF120863420067F085 /* IntroJVPViewController.xib */; };
+		CF53BB3D120863420067F085 /* IntroLungSoundsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAE0120863420067F085 /* IntroLungSoundsViewController.xib */; };
+		CF53BB3E120863420067F085 /* IntroAppearenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAE1120863420067F085 /* IntroAppearenceViewController.xib */; };
+		CF53BB3F120863420067F085 /* IntroHSInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAE2120863420067F085 /* IntroHSInfoViewController.xib */; };
+		CF53BB40120863420067F085 /* IntroAPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAE3120863420067F085 /* IntroAPViewController.xib */; };
+		CF53BB41120863420067F085 /* IntroPreCordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAE4120863420067F085 /* IntroPreCordViewController.xib */; };
+		CF53BB42120863420067F085 /* IntroFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BAE5120863420067F085 /* IntroFinalViewController.xib */; };
+		CF53BB441208634E0067F085 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF53BB431208634E0067F085 /* AVFoundation.framework */; };
+		CF53BB4C120863810067F085 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF53BB4B120863810067F085 /* MediaPlayer.framework */; };
+		CF53BBC3120877820067F085 /* QIntroTableViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BBC1120877820067F085 /* QIntroTableViewControler.m */; };
+		CF53BBC4120877820067F085 /* QIntroTableViewControler.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BBC2120877820067F085 /* QIntroTableViewControler.xib */; };
+		CF53BBFB12087DF50067F085 /* QNormalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BBF912087DF50067F085 /* QNormalTableViewController.m */; };
+		CF53BBFC12087DF50067F085 /* QNormalTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BBFA12087DF50067F085 /* QNormalTableViewController.xib */; };
+		CF53BC0012087E8A0067F085 /* QNormalFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF53BBFE12087E8A0067F085 /* QNormalFinalViewController.m */; };
+		CF53BC0112087E8A0067F085 /* QNormalFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF53BBFF12087E8A0067F085 /* QNormalFinalViewController.xib */; };
+		CFB86DAF1209C2E600B0F736 /* QInMurFinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB86DAD1209C2E600B0F736 /* QInMurFinalViewController.m */; };
+		CFB86DB01209C2E600B0F736 /* QInMurFinalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB86DAE1209C2E600B0F736 /* QInMurFinalViewController.xib */; };
+		CFB86DB41209C30600B0F736 /* QInMurTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB86DB21209C30600B0F736 /* QInMurTableViewController.m */; };
+		CFB86DB51209C30600B0F736 /* QInMurTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB86DB31209C30600B0F736 /* QInMurTableViewController.xib */; };
+		F923592E134CE6FE00FE11C9 /* InMurHeartSoundsViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = F923592D134CE6FE00FE11C9 /* InMurHeartSoundsViewContoller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* iHarveyMedStuAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHarveyMedStuAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* iHarveyMedStuAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iHarveyMedStuAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* iHarveyMedStu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iHarveyMedStu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AAE50D9B0CCF005BE974 /* iHarveyMedStu_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iHarveyMedStu_Prefix.pch; sourceTree = "<group>"; };
+		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28C286E00D94DF7D0034E888 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4410F16C15BDBE6D00485635 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		4417431215B823FB0075246D /* P22.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = P22.mp3; sourceTree = "<group>"; };
+		4417431515B824DC0075246D /* m36.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m36.mp3; sourceTree = "<group>"; };
+		4417431715B824F00075246D /* t36.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t36.mp3; sourceTree = "<group>"; };
+		4417431915B8254F0075246D /* a44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a44.mp3; sourceTree = "<group>"; };
+		4417431B15B825590075246D /* p44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p44.mp3; sourceTree = "<group>"; };
+		4417431D15B825630075246D /* t44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t44.mp3; sourceTree = "<group>"; };
+		4417431F15B825740075246D /* m44.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m44.mp3; sourceTree = "<group>"; };
+		4417432115B825B90075246D /* a46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a46.mp3; sourceTree = "<group>"; };
+		4417432315B825C10075246D /* m46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m46.mp3; sourceTree = "<group>"; };
+		4417432515B825CB0075246D /* p46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p46.mp3; sourceTree = "<group>"; };
+		4417432715B825D90075246D /* t46.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t46.mp3; sourceTree = "<group>"; };
+		4417432915B825FA0075246D /* a49.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a49.mp3; sourceTree = "<group>"; };
+		4417432B15B826030075246D /* m49.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = m49.mp3; sourceTree = "<group>"; };
+		4417432D15B8260B0075246D /* p49.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p49.mp3; sourceTree = "<group>"; };
+		4420EB3415F5B20B0033E016 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		4420EB3515F5B20B0033E016 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		4420EB3615F5B20B0033E016 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		4420EB3715F5B20B0033E016 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		4420EB4715F7A91B0033E016 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		4420EB4915F7A96A0033E016 /* ricon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ricon.png; sourceTree = "<group>"; };
+		4425014B15BC64B100EF1DB3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		442EB54315ED06BC000532C9 /* 22AOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22AOR.png; sourceTree = "<group>"; };
+		442EB54415ED06BC000532C9 /* 22AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22AP.png; sourceTree = "<group>"; };
+		442EB54515ED06BC000532C9 /* 22JVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22JVP.png; sourceTree = "<group>"; };
+		442EB54615ED06BC000532C9 /* 22MIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22MIT.png; sourceTree = "<group>"; };
+		442EB54715ED06BC000532C9 /* 22PRECOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22PRECOR.png; sourceTree = "<group>"; };
+		442EB54815ED06BC000532C9 /* 22PUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22PUL.png; sourceTree = "<group>"; };
+		442EB54915ED06BC000532C9 /* 22TRI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22TRI.png; sourceTree = "<group>"; };
+		442EB55115ED194F000532C9 /* 36AOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36AOR.png; sourceTree = "<group>"; };
+		442EB55215ED194F000532C9 /* 36AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36AP.png; sourceTree = "<group>"; };
+		442EB55315ED194F000532C9 /* 36JVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36JVP.png; sourceTree = "<group>"; };
+		442EB55415ED194F000532C9 /* 36MIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36MIT.png; sourceTree = "<group>"; };
+		442EB55515ED194F000532C9 /* 36PRECOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36PRECOR.png; sourceTree = "<group>"; };
+		442EB55615ED194F000532C9 /* 36PUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36PUL.png; sourceTree = "<group>"; };
+		442EB55715ED194F000532C9 /* 36TRI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36TRI.png; sourceTree = "<group>"; };
+		442EB55F15ED31A9000532C9 /* 49AOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49AOR.png; sourceTree = "<group>"; };
+		442EB56015ED31A9000532C9 /* 49AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49AP.png; sourceTree = "<group>"; };
+		442EB56115ED31A9000532C9 /* 49JVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49JVP.png; sourceTree = "<group>"; };
+		442EB56215ED31A9000532C9 /* 49MIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49MIT.png; sourceTree = "<group>"; };
+		442EB56315ED31A9000532C9 /* 49PRECOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49PRECOR.png; sourceTree = "<group>"; };
+		442EB56415ED31A9000532C9 /* 49PUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49PUL.png; sourceTree = "<group>"; };
+		442EB56515ED31A9000532C9 /* 49TRI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 49TRI.png; sourceTree = "<group>"; };
+		442EB56D15ED33EF000532C9 /* 46AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46AP.png; sourceTree = "<group>"; };
+		442EB56F15ED3401000532C9 /* 46JVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46JVP.png; sourceTree = "<group>"; };
+		442EB57115ED3421000532C9 /* 46MIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46MIT.png; sourceTree = "<group>"; };
+		442EB57315ED38D3000532C9 /* HypTenLungSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenLungSoundsViewController.h; sourceTree = "<group>"; };
+		442EB57415ED38D3000532C9 /* HypTenLungSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenLungSoundsViewController.m; sourceTree = "<group>"; };
+		442EB57515ED38D4000532C9 /* HypTenLungSoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenLungSoundsViewController.xib; path = Classes/HypTenLungSoundsViewController.xib; sourceTree = "<group>"; };
+		442EB57D15EE4111000532C9 /* HypTenJVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenJVPViewController.h; sourceTree = "<group>"; };
+		442EB57E15EE4111000532C9 /* HypTenJVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenJVPViewController.m; sourceTree = "<group>"; };
+		442EB57F15EE4112000532C9 /* HypTenJVPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenJVPViewController.xib; path = Classes/HypTenJVPViewController.xib; sourceTree = "<group>"; };
+		442EB58215EE44A2000532C9 /* HypTenAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenAPViewController.h; sourceTree = "<group>"; };
+		442EB58315EE44A2000532C9 /* HypTenAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenAPViewController.m; sourceTree = "<group>"; };
+		442EB58415EE44A3000532C9 /* HypTenAPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenAPViewController.xib; path = Classes/HypTenAPViewController.xib; sourceTree = "<group>"; };
+		442EB58715EE46F0000532C9 /* HypTenPreCordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenPreCordViewController.h; sourceTree = "<group>"; };
+		442EB58815EE46F1000532C9 /* HypTenPreCordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenPreCordViewController.m; sourceTree = "<group>"; };
+		442EB58915EE46F2000532C9 /* HypTenPreCordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenPreCordViewController.xib; path = Classes/HypTenPreCordViewController.xib; sourceTree = "<group>"; };
+		442EB58C15EE49AC000532C9 /* HypTenFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenFinalViewController.h; sourceTree = "<group>"; };
+		442EB58D15EE49AD000532C9 /* HypTenFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenFinalViewController.m; sourceTree = "<group>"; };
+		442EB58E15EE49AE000532C9 /* HypTenFinalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenFinalViewController.xib; path = Classes/HypTenFinalViewController.xib; sourceTree = "<group>"; };
+		442EB59115EE4B5A000532C9 /* HypTenHeartSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenHeartSoundsViewController.h; sourceTree = "<group>"; };
+		442EB59215EE4B5B000532C9 /* HypTenHeartSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenHeartSoundsViewController.m; sourceTree = "<group>"; };
+		442EB59315EE4B5C000532C9 /* HypTenHeartSoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenHeartSoundsViewController.xib; path = Classes/HypTenHeartSoundsViewController.xib; sourceTree = "<group>"; };
+		442EB59615EFB542000532C9 /* HypTenHSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenHSInfoViewController.h; sourceTree = "<group>"; };
+		442EB59715EFB544000532C9 /* HypTenHSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenHSInfoViewController.m; sourceTree = "<group>"; };
+		442EB59815EFB545000532C9 /* HypTenHSInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = HypTenHSInfoViewController.xib; path = Classes/HypTenHSInfoViewController.xib; sourceTree = "<group>"; };
+		442EB59B15EFC507000532C9 /* QHypTenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHypTenTableViewController.h; sourceTree = "<group>"; };
+		442EB59C15EFC507000532C9 /* QHypTenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHypTenTableViewController.m; sourceTree = "<group>"; };
+		442EB59D15EFC508000532C9 /* QHypTenTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QHypTenTableViewController.xib; path = Classes/QHypTenTableViewController.xib; sourceTree = "<group>"; };
+		442EB5A015EFD203000532C9 /* QHypTenFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QHypTenFinalViewController.h; sourceTree = "<group>"; };
+		442EB5A115EFD203000532C9 /* QHypTenFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QHypTenFinalViewController.m; sourceTree = "<group>"; };
+		442EB5A215EFD204000532C9 /* QHypTenFinalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = QHypTenFinalViewController.xib; path = Classes/QHypTenFinalViewController.xib; sourceTree = "<group>"; };
+		442EB5A715EFDD90000532C9 /* AngPecAppearanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecAppearanceViewController.h; sourceTree = "<group>"; };
+		442EB5A815EFDD90000532C9 /* AngPecAppearanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecAppearanceViewController.m; sourceTree = "<group>"; };
+		442EB5A915EFDD90000532C9 /* AngPecAppearanceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecAppearanceViewController.xib; path = Classes/AngPecAppearanceViewController.xib; sourceTree = "<group>"; };
+		442EB5AC15EFE001000532C9 /* AngPecJVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecJVPViewController.h; sourceTree = "<group>"; };
+		442EB5AD15EFE001000532C9 /* AngPecJVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecJVPViewController.m; sourceTree = "<group>"; };
+		442EB5AE15EFE001000532C9 /* AngPecJVPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecJVPViewController.xib; path = Classes/AngPecJVPViewController.xib; sourceTree = "<group>"; };
+		442EB5B415EFEA17000532C9 /* 39AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39AP.png; sourceTree = "<group>"; };
+		442EB5B515EFEA17000532C9 /* 39CATD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39CATD.png; sourceTree = "<group>"; };
+		442EB5B615EFEA17000532C9 /* 39JVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39JVP.png; sourceTree = "<group>"; };
+		442EB5B715EFEA17000532C9 /* 39PRECORD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 39PRECORD.png; sourceTree = "<group>"; };
+		442EB5BC15EFEEFA000532C9 /* AngPecAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecAPViewController.h; sourceTree = "<group>"; };
+		442EB5BD15EFEEFA000532C9 /* AngPecAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecAPViewController.m; sourceTree = "<group>"; };
+		442EB5BE15EFEEFB000532C9 /* AngPecAPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecAPViewController.xib; path = Classes/AngPecAPViewController.xib; sourceTree = "<group>"; };
+		442EB5C115EFF13F000532C9 /* AngPecPreCordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecPreCordViewController.h; sourceTree = "<group>"; };
+		442EB5C215EFF140000532C9 /* AngPecPreCordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecPreCordViewController.m; sourceTree = "<group>"; };
+		442EB5C315EFF141000532C9 /* AngPecPreCordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecPreCordViewController.xib; path = Classes/AngPecPreCordViewController.xib; sourceTree = "<group>"; };
+		442EB5C615EFF3B1000532C9 /* AngPecHeartSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecHeartSoundsViewController.h; sourceTree = "<group>"; };
+		442EB5C715EFF3B2000532C9 /* AngPecHeartSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecHeartSoundsViewController.m; sourceTree = "<group>"; };
+		442EB5C815EFF3B3000532C9 /* AngPecHeartSoundsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecHeartSoundsViewController.xib; path = Classes/AngPecHeartSoundsViewController.xib; sourceTree = "<group>"; };
+		442EB5CC15F04320000532C9 /* a39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a39.mp3; sourceTree = "<group>"; };
+		442EB5CE15F0432A000532C9 /* m39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = m39.mp3; path = 22InnMur/m39.mp3; sourceTree = "<group>"; };
+		442EB5D015F0433A000532C9 /* p39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = p39.mp3; sourceTree = "<group>"; };
+		442EB5D215F04344000532C9 /* t39.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = t39.mp3; sourceTree = "<group>"; };
+		442EB5D415F04507000532C9 /* AngPecHSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecHSInfoViewController.h; sourceTree = "<group>"; };
+		442EB5D515F04508000532C9 /* AngPecHSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecHSInfoViewController.m; sourceTree = "<group>"; };
+		442EB5D615F04509000532C9 /* AngPecHSInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecHSInfoViewController.xib; path = Classes/AngPecHSInfoViewController.xib; sourceTree = "<group>"; };
+		442EB5D915F100D5000532C9 /* AngPecCarAusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecCarAusViewController.h; sourceTree = "<group>"; };
+		442EB5DA15F100DB000532C9 /* AngPecCarAusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecCarAusViewController.m; sourceTree = "<group>"; };
+		442EB5DB15F100F8000532C9 /* AngPecCarAusViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecCarAusViewController.xib; path = Classes/AngPecCarAusViewController.xib; sourceTree = "<group>"; };
+		442EB5DF15F11CE0000532C9 /* AngPecFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecFinalViewController.h; sourceTree = "<group>"; };
+		442EB5E015F11CE1000532C9 /* AngPecFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecFinalViewController.m; sourceTree = "<group>"; };
+		442EB5E115F11CE2000532C9 /* AngPecFinalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AngPecFinalViewController.xib; path = Classes/AngPecFinalViewController.xib; sourceTree = "<group>"; };
+		442EB5E415F120F6000532C9 /* QAngPecTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAngPecTableViewController.h; sourceTree = "<group>"; };
+		442EB5E515F120F8000532C9 /* QAngPecTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAngPecTableViewController.m; sourceTree = "<group>"; };
+		442EB5E615F120F9000532C9 /* QAngPecTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAngPecTableViewController.xib; sourceTree = "<group>"; };
+		442EB5E915F13057000532C9 /* QAngPecFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAngPecFinalViewController.h; sourceTree = "<group>"; };
+		442EB5EA15F13059000532C9 /* QAngPecFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAngPecFinalViewController.m; sourceTree = "<group>"; };
+		442EB5EB15F1305B000532C9 /* QAngPecFinalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QAngPecFinalViewController.xib; sourceTree = "<group>"; };
+		442EB5EE15F28E6C000532C9 /* S3.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = S3.mov; sourceTree = "<group>"; };
+		442EB5F015F3C769000532C9 /* S4.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = S4.mov; sourceTree = "<group>"; };
+		44460C0D15C831560035929C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		44460C0F15C831CB0035929C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		44460C1115C831D40035929C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		44460C1315C831E80035929C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		446BD8EA15DD632B002893E9 /* 46PRECORD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46PRECORD.png; sourceTree = "<group>"; };
+		446BD8EC15DD65DD002893E9 /* 46AOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46AOR.png; sourceTree = "<group>"; };
+		446BD8F215DD6CC8002893E9 /* 46PUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46PUL.png; sourceTree = "<group>"; };
+		446BD8F415DD6E8A002893E9 /* 46TRI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 46TRI.png; sourceTree = "<group>"; };
+		446BD8F715DD787C002893E9 /* 44AOR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44AOR.png; sourceTree = "<group>"; };
+		446BD8F815DD787C002893E9 /* 44AP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44AP.png; sourceTree = "<group>"; };
+		446BD8F915DD787C002893E9 /* 44JVP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44JVP.png; sourceTree = "<group>"; };
+		446BD8FA15DD787C002893E9 /* 44MIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44MIT.png; sourceTree = "<group>"; };
+		446BD8FB15DD787C002893E9 /* 44PRECORD.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44PRECORD.png; sourceTree = "<group>"; };
+		446BD8FC15DD787C002893E9 /* 44PUL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44PUL.png; sourceTree = "<group>"; };
+		446BD8FD15DD787C002893E9 /* 44TRI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44TRI.png; sourceTree = "<group>"; };
+		448F162C162E2F52001BE4EE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4493660715FA34E1002D58C8 /* AppboySession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppboySession.h; path = "../../Downloads/AppboyRelease 3/AppboySession.h"; sourceTree = "<group>"; };
+		4493660915FA3577002D58C8 /* libAppboyKitLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppboyKitLibrary.a; path = "../../Downloads/AppboyRelease 3/libAppboyKitLibrary.a"; sourceTree = "<group>"; };
+		4493660B15FA35C5002D58C8 /* AppboyKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppboyKit.framework; path = "../../Downloads/AppboyRelease 3/AppboyKit.framework"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* iHarveyMedStu-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iHarveyMedStu-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		CF2C68DE120C78EF0088CE3E /* QAorValSclFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAorValSclFinalViewController.h; sourceTree = "<group>"; };
+		CF2C68DF120C78EF0088CE3E /* QAorValSclFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAorValSclFinalViewController.m; sourceTree = "<group>"; };
+		CF2C68E0120C78EF0088CE3E /* QAorValSclFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QAorValSclFinalViewController.xib; path = Classes/QAorValSclFinalViewController.xib; sourceTree = "<group>"; };
+		CF2C68E3120C795D0088CE3E /* QAorValSclTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QAorValSclTableViewController.h; sourceTree = "<group>"; };
+		CF2C68E4120C795D0088CE3E /* QAorValSclTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QAorValSclTableViewController.m; sourceTree = "<group>"; };
+		CF2C68E5120C795D0088CE3E /* QAorValSclTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QAorValSclTableViewController.xib; path = Classes/QAorValSclTableViewController.xib; sourceTree = "<group>"; };
+		CF2C693D120C85270088CE3E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CF2C6944120C89250088CE3E /* HypTenAppearanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenAppearanceViewController.h; sourceTree = "<group>"; };
+		CF2C6945120C89250088CE3E /* HypTenAppearanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenAppearanceViewController.m; sourceTree = "<group>"; };
+		CF2C6946120C89250088CE3E /* HypTenAppearanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HypTenAppearanceViewController.xib; path = Classes/HypTenAppearanceViewController.xib; sourceTree = "<group>"; };
+		CF53B9AA1208556E0067F085 /* ProSelTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProSelTableViewController.h; sourceTree = "<group>"; };
+		CF53B9AB1208556E0067F085 /* ProSelTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProSelTableViewController.m; sourceTree = "<group>"; };
+		CF53B9AC1208556E0067F085 /* ProSelTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ProSelTableViewController.xib; path = Classes/ProSelTableViewController.xib; sourceTree = "<group>"; };
+		CF53B9B3120856FA0067F085 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		CF53B9B4120856FA0067F085 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		CF53B9B5120856FA0067F085 /* QuizViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QuizViewController.xib; path = Classes/QuizViewController.xib; sourceTree = "<group>"; };
+		CF53B9C412085A800067F085 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		CF53B9C512085A800067F085 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		CF53B9C612085A800067F085 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AboutViewController.xib; path = Classes/AboutViewController.xib; sourceTree = "<group>"; };
+		CF53B9D6120862540067F085 /* AorValSclAppearanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclAppearanceViewController.h; sourceTree = "<group>"; };
+		CF53B9D7120862540067F085 /* AorValSclAppearanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclAppearanceViewController.m; sourceTree = "<group>"; };
+		CF53B9D8120862540067F085 /* AorValSclJVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclJVPViewController.h; sourceTree = "<group>"; };
+		CF53B9D9120862540067F085 /* AorValSclJVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclJVPViewController.m; sourceTree = "<group>"; };
+		CF53B9DA120862540067F085 /* AorValSclAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclAPViewController.h; sourceTree = "<group>"; };
+		CF53B9DB120862540067F085 /* AorValSclAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclAPViewController.m; sourceTree = "<group>"; };
+		CF53B9DC120862540067F085 /* AorValSlcPreCorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSlcPreCorViewController.h; sourceTree = "<group>"; };
+		CF53B9DD120862540067F085 /* AorValSlcPreCorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSlcPreCorViewController.m; sourceTree = "<group>"; };
+		CF53B9DE120862540067F085 /* AorValSclHeartSounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclHeartSounds.h; sourceTree = "<group>"; };
+		CF53B9DF120862540067F085 /* AorValSclHeartSounds.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclHeartSounds.m; sourceTree = "<group>"; };
+		CF53B9E0120862540067F085 /* AorValSclHSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclHSInfoViewController.h; sourceTree = "<group>"; };
+		CF53B9E1120862540067F085 /* AorValSclHSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclHSInfoViewController.m; sourceTree = "<group>"; };
+		CF53B9E2120862540067F085 /* AorValSclFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclFinalViewController.h; sourceTree = "<group>"; };
+		CF53B9E3120862540067F085 /* AorValSclFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclFinalViewController.m; sourceTree = "<group>"; };
+		CF53B9E5120862540067F085 /* InMurAppearenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurAppearenceViewController.h; sourceTree = "<group>"; };
+		CF53B9E6120862540067F085 /* InMurAppearenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurAppearenceViewController.m; sourceTree = "<group>"; };
+		CF53B9E7120862540067F085 /* InMurJVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurJVPViewController.h; sourceTree = "<group>"; };
+		CF53B9E8120862540067F085 /* InMurJVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurJVPViewController.m; sourceTree = "<group>"; };
+		CF53B9E9120862540067F085 /* InMurAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurAPViewController.h; sourceTree = "<group>"; };
+		CF53B9EA120862540067F085 /* InMurAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurAPViewController.m; sourceTree = "<group>"; };
+		CF53B9EB120862540067F085 /* InMurPreCorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurPreCorViewController.h; sourceTree = "<group>"; };
+		CF53B9EC120862540067F085 /* InMurPreCorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurPreCorViewController.m; sourceTree = "<group>"; };
+		CF53B9ED120862540067F085 /* InMurHeartSoundsViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurHeartSoundsViewContoller.h; sourceTree = "<group>"; };
+		CF53B9EF120862540067F085 /* InMurHSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurHSInfoViewController.h; sourceTree = "<group>"; };
+		CF53B9F0120862540067F085 /* InMurHSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurHSInfoViewController.m; sourceTree = "<group>"; };
+		CF53B9F1120862540067F085 /* InMurFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurFinalViewController.h; sourceTree = "<group>"; };
+		CF53B9F2120862540067F085 /* InMurFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurFinalViewController.m; sourceTree = "<group>"; };
+		CF53B9F4120862540067F085 /* NormalAppearenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalAppearenceViewController.h; sourceTree = "<group>"; };
+		CF53B9F5120862540067F085 /* NormalAppearenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalAppearenceViewController.m; sourceTree = "<group>"; };
+		CF53B9F6120862540067F085 /* NormalLungSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalLungSoundsViewController.h; sourceTree = "<group>"; };
+		CF53B9F7120862540067F085 /* NormalLungSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalLungSoundsViewController.m; sourceTree = "<group>"; };
+		CF53B9F8120862540067F085 /* NormalHeartSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalHeartSoundsViewController.h; sourceTree = "<group>"; };
+		CF53B9F9120862540067F085 /* NormalHeartSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalHeartSoundsViewController.m; sourceTree = "<group>"; };
+		CF53B9FA120862540067F085 /* NormalLSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalLSInfoViewController.h; sourceTree = "<group>"; };
+		CF53B9FB120862540067F085 /* NormalLSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalLSInfoViewController.m; sourceTree = "<group>"; };
+		CF53B9FC120862540067F085 /* NormalJVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalJVPViewController.h; sourceTree = "<group>"; };
+		CF53B9FD120862540067F085 /* NormalJVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalJVPViewController.m; sourceTree = "<group>"; };
+		CF53B9FE120862540067F085 /* NormalAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalAPViewController.h; sourceTree = "<group>"; };
+		CF53B9FF120862540067F085 /* NormalAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalAPViewController.m; sourceTree = "<group>"; };
+		CF53BA00120862540067F085 /* NormalPreCordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalPreCordViewController.h; sourceTree = "<group>"; };
+		CF53BA01120862540067F085 /* NormalPreCordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalPreCordViewController.m; sourceTree = "<group>"; };
+		CF53BA02120862540067F085 /* NormalFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalFinalViewController.h; sourceTree = "<group>"; };
+		CF53BA03120862540067F085 /* NormalFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalFinalViewController.m; sourceTree = "<group>"; };
+		CF53BA04120862540067F085 /* NormalHSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalHSInfoViewController.h; sourceTree = "<group>"; };
+		CF53BA05120862540067F085 /* NormalHSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalHSInfoViewController.m; sourceTree = "<group>"; };
+		CF53BA07120862540067F085 /* IntroLungSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLungSoundsViewController.h; sourceTree = "<group>"; };
+		CF53BA08120862540067F085 /* IntroLungSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLungSoundsViewController.m; sourceTree = "<group>"; };
+		CF53BA09120862540067F085 /* IntroLSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroLSInfoViewController.h; sourceTree = "<group>"; };
+		CF53BA0A120862540067F085 /* IntroLSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroLSInfoViewController.m; sourceTree = "<group>"; };
+		CF53BA0B120862540067F085 /* IntroAppearenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroAppearenceViewController.h; sourceTree = "<group>"; };
+		CF53BA0C120862540067F085 /* IntroAppearenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroAppearenceViewController.m; sourceTree = "<group>"; };
+		CF53BA0D120862540067F085 /* IntroHeartSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroHeartSoundsViewController.h; sourceTree = "<group>"; };
+		CF53BA0E120862540067F085 /* IntroHeartSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroHeartSoundsViewController.m; sourceTree = "<group>"; };
+		CF53BA0F120862540067F085 /* IntroHSInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroHSInfoViewController.h; sourceTree = "<group>"; };
+		CF53BA10120862540067F085 /* IntroHSInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroHSInfoViewController.m; sourceTree = "<group>"; };
+		CF53BA11120862540067F085 /* IntroJVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroJVPViewController.h; sourceTree = "<group>"; };
+		CF53BA12120862540067F085 /* IntroJVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroJVPViewController.m; sourceTree = "<group>"; };
+		CF53BA13120862540067F085 /* IntroPreCordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroPreCordViewController.h; sourceTree = "<group>"; };
+		CF53BA14120862540067F085 /* IntroPreCordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroPreCordViewController.m; sourceTree = "<group>"; };
+		CF53BA15120862540067F085 /* IntroAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroAPViewController.h; sourceTree = "<group>"; };
+		CF53BA16120862540067F085 /* IntroAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroAPViewController.m; sourceTree = "<group>"; };
+		CF53BA17120862540067F085 /* IntroFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroFinalViewController.h; sourceTree = "<group>"; };
+		CF53BA18120862540067F085 /* IntroFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroFinalViewController.m; sourceTree = "<group>"; };
+		CF53BA19120862540067F085 /* IntroFinalDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroFinalDViewController.h; sourceTree = "<group>"; };
+		CF53BA1A120862540067F085 /* IntroFinalDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroFinalDViewController.m; sourceTree = "<group>"; };
+		CF53BA1B120862540067F085 /* IntroFinalDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IntroFinalDViewController.xib; path = Classes/IntroFinalDViewController.xib; sourceTree = "<group>"; };
+		CF53BA1C120862540067F085 /* IntroShakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroShakeViewController.h; sourceTree = "<group>"; };
+		CF53BA1D120862540067F085 /* IntroShakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroShakeViewController.m; sourceTree = "<group>"; };
+		CF53BA1E120862540067F085 /* IntroShakeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroShakeViewController.xib; sourceTree = "<group>"; };
+		CF53BA431208626D0067F085 /* IntroTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroTableViewController.h; sourceTree = "<group>"; };
+		CF53BA441208626D0067F085 /* IntroTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroTableViewController.m; sourceTree = "<group>"; };
+		CF53BA451208626D0067F085 /* NormalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalTableViewController.h; sourceTree = "<group>"; };
+		CF53BA461208626D0067F085 /* NormalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalTableViewController.m; sourceTree = "<group>"; };
+		CF53BA471208626D0067F085 /* AorValSclTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AorValSclTableViewController.h; sourceTree = "<group>"; };
+		CF53BA481208626D0067F085 /* AorValSclTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AorValSclTableViewController.m; sourceTree = "<group>"; };
+		CF53BA491208626D0067F085 /* HypTenTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypTenTableViewController.h; sourceTree = "<group>"; };
+		CF53BA4A1208626D0067F085 /* HypTenTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypTenTableViewController.m; sourceTree = "<group>"; };
+		CF53BA4B1208626D0067F085 /* AngPecTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngPecTableViewController.h; sourceTree = "<group>"; };
+		CF53BA4C1208626D0067F085 /* AngPecTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AngPecTableViewController.m; sourceTree = "<group>"; };
+		CF53BA4D1208626D0067F085 /* InMurTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InMurTableViewController.h; sourceTree = "<group>"; };
+		CF53BA4E1208626D0067F085 /* InMurTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurTableViewController.m; sourceTree = "<group>"; };
+		CF53BA561208629C0067F085 /* AIMITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIMITableViewController.h; sourceTree = "<group>"; };
+		CF53BA571208629C0067F085 /* AIMITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIMITableViewController.m; sourceTree = "<group>"; };
+		CF53BA59120862C60067F085 /* AorValSclTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclTableViewController.xib; sourceTree = "<group>"; };
+		CF53BA5A120862C60067F085 /* IntroTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroTableViewController.xib; sourceTree = "<group>"; };
+		CF53BA5B120862C60067F085 /* NormalTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalTableViewController.xib; sourceTree = "<group>"; };
+		CF53BA5C120862C60067F085 /* InMurTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurTableViewController.xib; sourceTree = "<group>"; };
+		CF53BA5D120862C60067F085 /* HypTenTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HypTenTableViewController.xib; sourceTree = "<group>"; };
+		CF53BA5E120862C60067F085 /* AngPecTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AngPecTableViewController.xib; sourceTree = "<group>"; };
+		CF53BA5F120862C60067F085 /* AIMITableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AIMITableViewController.xib; sourceTree = "<group>"; };
+		CF53BA74120863400067F085 /* mit.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = mit.mov; sourceTree = "<group>"; };
+		CF53BA75120863400067F085 /* tri.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tri.mov; sourceTree = "<group>"; };
+		CF53BA76120863400067F085 /* pul.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = pul.mov; sourceTree = "<group>"; };
+		CF53BA77120863400067F085 /* S1-S2 Filling Animation.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "S1-S2 Filling Animation.mov"; sourceTree = "<group>"; };
+		CF53BA79120863400067F085 /* AorValSclAppearanceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclAppearanceViewController.xib; sourceTree = "<group>"; };
+		CF53BA7A120863400067F085 /* AorValSclJVPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclJVPViewController.xib; sourceTree = "<group>"; };
+		CF53BA7B120863400067F085 /* AorValSclAPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclAPViewController.xib; sourceTree = "<group>"; };
+		CF53BA7C120863400067F085 /* AorValSlcPreCorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSlcPreCorViewController.xib; sourceTree = "<group>"; };
+		CF53BA7D120863400067F085 /* AorValSclHeartSounds.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclHeartSounds.xib; sourceTree = "<group>"; };
+		CF53BA7E120863400067F085 /* AorValSclHSInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclHSInfoViewController.xib; sourceTree = "<group>"; };
+		CF53BA7F120863400067F085 /* AorValSclFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AorValSclFinalViewController.xib; sourceTree = "<group>"; };
+		CF53BA83120863400067F085 /* 22Pulmonic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 22Pulmonic.m4a; sourceTree = "<group>"; };
+		CF53BA86120863400067F085 /* 36Mitral.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 36Mitral.m4a; sourceTree = "<group>"; };
+		CF53BA87120863400067F085 /* 36Tri.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 36Tri.m4a; sourceTree = "<group>"; };
+		CF53BA8F120863410067F085 /* 44Lung.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 44Lung.m4a; sourceTree = "<group>"; };
+		CF53BA92120863410067F085 /* 46Aortic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 46Aortic.m4a; sourceTree = "<group>"; };
+		CF53BA93120863410067F085 /* 46Mitral.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 46Mitral.m4a; sourceTree = "<group>"; };
+		CF53BA94120863410067F085 /* 46Pulmonic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 46Pulmonic.m4a; sourceTree = "<group>"; };
+		CF53BA95120863410067F085 /* 46Tri.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 46Tri.m4a; sourceTree = "<group>"; };
+		CF53BA98120863410067F085 /* 49Aortic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 49Aortic.m4a; sourceTree = "<group>"; };
+		CF53BA99120863410067F085 /* 49Mitral.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 49Mitral.m4a; sourceTree = "<group>"; };
+		CF53BA9A120863410067F085 /* 49Pulmonic.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 49Pulmonic.m4a; sourceTree = "<group>"; };
+		CF53BA9D120863410067F085 /* newicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newicon.png; sourceTree = "<group>"; };
+		CF53BA9E120863410067F085 /* ChadChest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChadChest.png; sourceTree = "<group>"; };
+		CF53BAA7120863420067F085 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		CF53BAC1120863420067F085 /* breath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = breath.png; sourceTree = "<group>"; };
+		CF53BAC8120863420067F085 /* Thumbs.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thumbs.db; sourceTree = "<group>"; };
+		CF53BACB120863420067F085 /* InMurHeartSoundsViewContoller.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurHeartSoundsViewContoller.xib; sourceTree = "<group>"; };
+		CF53BACC120863420067F085 /* InMurFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurFinalViewController.xib; sourceTree = "<group>"; };
+		CF53BACD120863420067F085 /* InMurHSInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurHSInfoViewController.xib; sourceTree = "<group>"; };
+		CF53BACE120863420067F085 /* InMurJVPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurJVPViewController.xib; sourceTree = "<group>"; };
+		CF53BACF120863420067F085 /* InMurAPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurAPViewController.xib; sourceTree = "<group>"; };
+		CF53BAD0120863420067F085 /* InMurAppearenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurAppearenceViewController.xib; sourceTree = "<group>"; };
+		CF53BAD1120863420067F085 /* InMurPreCorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InMurPreCorViewController.xib; sourceTree = "<group>"; };
+		CF53BAD3120863420067F085 /* NormalLSInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalLSInfoViewController.xib; sourceTree = "<group>"; };
+		CF53BAD4120863420067F085 /* NormalAPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalAPViewController.xib; sourceTree = "<group>"; };
+		CF53BAD5120863420067F085 /* NormalPreCordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalPreCordViewController.xib; sourceTree = "<group>"; };
+		CF53BAD6120863420067F085 /* NormalHSInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalHSInfoViewController.xib; sourceTree = "<group>"; };
+		CF53BAD7120863420067F085 /* NormalLungSoundsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalLungSoundsViewController.xib; sourceTree = "<group>"; };
+		CF53BAD8120863420067F085 /* NormalFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalFinalViewController.xib; sourceTree = "<group>"; };
+		CF53BAD9120863420067F085 /* NormalHeartSoundsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalHeartSoundsViewController.xib; sourceTree = "<group>"; };
+		CF53BADA120863420067F085 /* NormalAppearenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalAppearenceViewController.xib; sourceTree = "<group>"; };
+		CF53BADB120863420067F085 /* NormalJVPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NormalJVPViewController.xib; sourceTree = "<group>"; };
+		CF53BADD120863420067F085 /* IntroLSInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroLSInfoViewController.xib; sourceTree = "<group>"; };
+		CF53BADE120863420067F085 /* IntroHeartSoundsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroHeartSoundsViewController.xib; sourceTree = "<group>"; };
+		CF53BADF120863420067F085 /* IntroJVPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroJVPViewController.xib; sourceTree = "<group>"; };
+		CF53BAE0120863420067F085 /* IntroLungSoundsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroLungSoundsViewController.xib; sourceTree = "<group>"; };
+		CF53BAE1120863420067F085 /* IntroAppearenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroAppearenceViewController.xib; sourceTree = "<group>"; };
+		CF53BAE2120863420067F085 /* IntroHSInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroHSInfoViewController.xib; sourceTree = "<group>"; };
+		CF53BAE3120863420067F085 /* IntroAPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroAPViewController.xib; sourceTree = "<group>"; };
+		CF53BAE4120863420067F085 /* IntroPreCordViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroPreCordViewController.xib; sourceTree = "<group>"; };
+		CF53BAE5120863420067F085 /* IntroFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IntroFinalViewController.xib; sourceTree = "<group>"; };
+		CF53BB431208634E0067F085 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF53BB4B120863810067F085 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CF53BBC0120877820067F085 /* QIntroTableViewControler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QIntroTableViewControler.h; sourceTree = "<group>"; };
+		CF53BBC1120877820067F085 /* QIntroTableViewControler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QIntroTableViewControler.m; sourceTree = "<group>"; };
+		CF53BBC2120877820067F085 /* QIntroTableViewControler.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QIntroTableViewControler.xib; path = Classes/QIntroTableViewControler.xib; sourceTree = "<group>"; };
+		CF53BBF812087DF50067F085 /* QNormalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNormalTableViewController.h; sourceTree = "<group>"; };
+		CF53BBF912087DF50067F085 /* QNormalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNormalTableViewController.m; sourceTree = "<group>"; };
+		CF53BBFA12087DF50067F085 /* QNormalTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QNormalTableViewController.xib; path = Classes/QNormalTableViewController.xib; sourceTree = "<group>"; };
+		CF53BBFD12087E8A0067F085 /* QNormalFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QNormalFinalViewController.h; sourceTree = "<group>"; };
+		CF53BBFE12087E8A0067F085 /* QNormalFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QNormalFinalViewController.m; sourceTree = "<group>"; };
+		CF53BBFF12087E8A0067F085 /* QNormalFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QNormalFinalViewController.xib; path = Classes/QNormalFinalViewController.xib; sourceTree = "<group>"; };
+		CFB86DAC1209C2E600B0F736 /* QInMurFinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QInMurFinalViewController.h; sourceTree = "<group>"; };
+		CFB86DAD1209C2E600B0F736 /* QInMurFinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QInMurFinalViewController.m; sourceTree = "<group>"; };
+		CFB86DAE1209C2E600B0F736 /* QInMurFinalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QInMurFinalViewController.xib; path = Classes/QInMurFinalViewController.xib; sourceTree = "<group>"; };
+		CFB86DB11209C30600B0F736 /* QInMurTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QInMurTableViewController.h; sourceTree = "<group>"; };
+		CFB86DB21209C30600B0F736 /* QInMurTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QInMurTableViewController.m; sourceTree = "<group>"; };
+		CFB86DB31209C30600B0F736 /* QInMurTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = QInMurTableViewController.xib; path = Classes/QInMurTableViewController.xib; sourceTree = "<group>"; };
+		F923592D134CE6FE00FE11C9 /* InMurHeartSoundsViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InMurHeartSoundsViewContoller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4493661B15FA3AAD002D58C8 /* libTestFlight.a in Frameworks */,
+				4493660A15FA3577002D58C8 /* libAppboyKitLibrary.a in Frameworks */,
+				4493660815FA3535002D58C8 /* SystemConfiguration.framework in Frameworks */,
+				4420EB3C15F5B28E0033E016 /* libz.dylib in Frameworks */,
+				44460C1415C831E80035929C /* AssetsLibrary.framework in Frameworks */,
+				44460C1215C831D40035929C /* CoreLocation.framework in Frameworks */,
+				44460C1015C831CB0035929C /* QuartzCore.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				CF53BB441208634E0067F085 /* AVFoundation.framework in Frameworks */,
+				CF53BB4C120863810067F085 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* iHarveyMedStuAppDelegate.h */,
+				1D3623250D0F684500981E51 /* iHarveyMedStuAppDelegate.m */,
+				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
+				28C286E00D94DF7D0034E888 /* RootViewController.m */,
+				CF53BB9B120871DE0067F085 /* Quiz */,
+				CF53BA55120862810067F085 /* Prog Sel */,
+				CF53B9AA1208556E0067F085 /* ProSelTableViewController.h */,
+				CF53B9AB1208556E0067F085 /* ProSelTableViewController.m */,
+				CF53B9B3120856FA0067F085 /* QuizViewController.h */,
+				CF53B9B4120856FA0067F085 /* QuizViewController.m */,
+				CF53B9C412085A800067F085 /* AboutViewController.h */,
+				CF53B9C512085A800067F085 /* AboutViewController.m */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* iHarveyMedStu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				448F162C162E2F52001BE4EE /* Default-568h@2x.png */,
+				4420EB4915F7A96A0033E016 /* ricon.png */,
+				4420EB4715F7A91B0033E016 /* icon.png */,
+				4420EB3315F5B20B0033E016 /* TestFlightSDK1-2 */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AAE50D9B0CCF005BE974 /* iHarveyMedStu_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5DE15F119DD000532C9 /* AngPec */,
+				442EB5A515EFD46D000532C9 /* HypTen */,
+				4425014B15BC64B100EF1DB3 /* libz.dylib */,
+				442EB5A215EFD204000532C9 /* QHypTenFinalViewController.xib */,
+				442EB59D15EFC508000532C9 /* QHypTenTableViewController.xib */,
+				CF53BA1B120862540067F085 /* IntroFinalDViewController.xib */,
+				CF53BBC2120877820067F085 /* QIntroTableViewControler.xib */,
+				CF53BBFA12087DF50067F085 /* QNormalTableViewController.xib */,
+				CF53BBFF12087E8A0067F085 /* QNormalFinalViewController.xib */,
+				CFB86DB31209C30600B0F736 /* QInMurTableViewController.xib */,
+				CFB86DAE1209C2E600B0F736 /* QInMurFinalViewController.xib */,
+				CF2C68E5120C795D0088CE3E /* QAorValSclTableViewController.xib */,
+				CF2C68E0120C78EF0088CE3E /* QAorValSclFinalViewController.xib */,
+				CF53BADC120863420067F085 /* Intro */,
+				CF53BAD2120863420067F085 /* Normal */,
+				CF53BACA120863420067F085 /* InMur */,
+				CF53BA80120863400067F085 /* Audio */,
+				CF53BA9B120863410067F085 /* Images */,
+				CF53BA78120863400067F085 /* AorValScl */,
+				CF53BA73120863400067F085 /* Video */,
+				CF53BA67120862C90067F085 /* Prog Sel */,
+				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
+				28F335F01007B36200424DE2 /* RootViewController.xib */,
+				CF53B9AC1208556E0067F085 /* ProSelTableViewController.xib */,
+				CF53B9B5120856FA0067F085 /* QuizViewController.xib */,
+				CF53B9C612085A800067F085 /* AboutViewController.xib */,
+				8D1107310486CEB800E47090 /* iHarveyMedStu-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4493660915FA3577002D58C8 /* libAppboyKitLibrary.a */,
+				4493660B15FA35C5002D58C8 /* AppboyKit.framework */,
+				4493660715FA34E1002D58C8 /* AppboySession.h */,
+				44460C1315C831E80035929C /* AssetsLibrary.framework */,
+				44460C1115C831D40035929C /* CoreLocation.framework */,
+				44460C0F15C831CB0035929C /* QuartzCore.framework */,
+				44460C0D15C831560035929C /* SystemConfiguration.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				CF53BB431208634E0067F085 /* AVFoundation.framework */,
+				CF53BB4B120863810067F085 /* MediaPlayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4420EB3315F5B20B0033E016 /* TestFlightSDK1-2 */ = {
+			isa = PBXGroup;
+			children = (
+				4420EB3415F5B20B0033E016 /* libTestFlight.a */,
+				4420EB3515F5B20B0033E016 /* README.txt */,
+				4420EB3615F5B20B0033E016 /* release_notes.txt */,
+				4420EB3715F5B20B0033E016 /* TestFlight.h */,
+			);
+			path = "TestFlightSDK1-2";
+			sourceTree = "<group>";
+		};
+		442EB5A515EFD46D000532C9 /* HypTen */ = {
+			isa = PBXGroup;
+			children = (
+				442EB59815EFB545000532C9 /* HypTenHSInfoViewController.xib */,
+				442EB59315EE4B5C000532C9 /* HypTenHeartSoundsViewController.xib */,
+				442EB58E15EE49AE000532C9 /* HypTenFinalViewController.xib */,
+				442EB58915EE46F2000532C9 /* HypTenPreCordViewController.xib */,
+				442EB58415EE44A3000532C9 /* HypTenAPViewController.xib */,
+				442EB57F15EE4112000532C9 /* HypTenJVPViewController.xib */,
+				442EB57515ED38D4000532C9 /* HypTenLungSoundsViewController.xib */,
+				CF2C6946120C89250088CE3E /* HypTenAppearanceViewController.xib */,
+			);
+			name = HypTen;
+			sourceTree = "<group>";
+		};
+		442EB5A615EFDD5E000532C9 /* Angina (39) */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5A715EFDD90000532C9 /* AngPecAppearanceViewController.h */,
+				442EB5A815EFDD90000532C9 /* AngPecAppearanceViewController.m */,
+				442EB5AC15EFE001000532C9 /* AngPecJVPViewController.h */,
+				442EB5AD15EFE001000532C9 /* AngPecJVPViewController.m */,
+				442EB5BC15EFEEFA000532C9 /* AngPecAPViewController.h */,
+				442EB5BD15EFEEFA000532C9 /* AngPecAPViewController.m */,
+				442EB5C115EFF13F000532C9 /* AngPecPreCordViewController.h */,
+				442EB5C215EFF140000532C9 /* AngPecPreCordViewController.m */,
+				442EB5C615EFF3B1000532C9 /* AngPecHeartSoundsViewController.h */,
+				442EB5C715EFF3B2000532C9 /* AngPecHeartSoundsViewController.m */,
+				442EB5D415F04507000532C9 /* AngPecHSInfoViewController.h */,
+				442EB5D515F04508000532C9 /* AngPecHSInfoViewController.m */,
+				442EB5D915F100D5000532C9 /* AngPecCarAusViewController.h */,
+				442EB5DA15F100DB000532C9 /* AngPecCarAusViewController.m */,
+				442EB5DF15F11CE0000532C9 /* AngPecFinalViewController.h */,
+				442EB5E015F11CE1000532C9 /* AngPecFinalViewController.m */,
+			);
+			name = "Angina (39)";
+			sourceTree = "<group>";
+		};
+		442EB5B315EFEA15000532C9 /* 39 */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5B415EFEA17000532C9 /* 39AP.png */,
+				442EB5B515EFEA17000532C9 /* 39CATD.png */,
+				442EB5B615EFEA17000532C9 /* 39JVP.png */,
+				442EB5B715EFEA17000532C9 /* 39PRECORD.png */,
+			);
+			path = 39;
+			sourceTree = "<group>";
+		};
+		442EB5CB15F042B0000532C9 /* 39AngPec */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5D215F04344000532C9 /* t39.mp3 */,
+				442EB5D015F0433A000532C9 /* p39.mp3 */,
+				442EB5CE15F0432A000532C9 /* m39.mp3 */,
+				442EB5CC15F04320000532C9 /* a39.mp3 */,
+			);
+			name = 39AngPec;
+			sourceTree = "<group>";
+		};
+		442EB5DE15F119DD000532C9 /* AngPec */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5E115F11CE2000532C9 /* AngPecFinalViewController.xib */,
+				442EB5DB15F100F8000532C9 /* AngPecCarAusViewController.xib */,
+				442EB5D615F04509000532C9 /* AngPecHSInfoViewController.xib */,
+				442EB5C815EFF3B3000532C9 /* AngPecHeartSoundsViewController.xib */,
+				442EB5C315EFF141000532C9 /* AngPecPreCordViewController.xib */,
+				442EB5BE15EFEEFB000532C9 /* AngPecAPViewController.xib */,
+				442EB5AE15EFE001000532C9 /* AngPecJVPViewController.xib */,
+				442EB5A915EFDD90000532C9 /* AngPecAppearanceViewController.xib */,
+			);
+			name = AngPec;
+			sourceTree = "<group>";
+		};
+		446BD8F615DD77C8002893E9 /* 44 */ = {
+			isa = PBXGroup;
+			children = (
+				446BD8F715DD787C002893E9 /* 44AOR.png */,
+				446BD8F815DD787C002893E9 /* 44AP.png */,
+				446BD8F915DD787C002893E9 /* 44JVP.png */,
+				446BD8FA15DD787C002893E9 /* 44MIT.png */,
+				446BD8FB15DD787C002893E9 /* 44PRECORD.png */,
+				446BD8FC15DD787C002893E9 /* 44PUL.png */,
+				446BD8FD15DD787C002893E9 /* 44TRI.png */,
+			);
+			name = 44;
+			path = 46;
+			sourceTree = "<group>";
+		};
+		CF2C6941120C872E0088CE3E /* Hypertension (36) */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C6944120C89250088CE3E /* HypTenAppearanceViewController.h */,
+				CF2C6945120C89250088CE3E /* HypTenAppearanceViewController.m */,
+				442EB57315ED38D3000532C9 /* HypTenLungSoundsViewController.h */,
+				442EB57415ED38D3000532C9 /* HypTenLungSoundsViewController.m */,
+				442EB57D15EE4111000532C9 /* HypTenJVPViewController.h */,
+				442EB57E15EE4111000532C9 /* HypTenJVPViewController.m */,
+				442EB58215EE44A2000532C9 /* HypTenAPViewController.h */,
+				442EB58315EE44A2000532C9 /* HypTenAPViewController.m */,
+				442EB58715EE46F0000532C9 /* HypTenPreCordViewController.h */,
+				442EB58815EE46F1000532C9 /* HypTenPreCordViewController.m */,
+				442EB58C15EE49AC000532C9 /* HypTenFinalViewController.h */,
+				442EB58D15EE49AD000532C9 /* HypTenFinalViewController.m */,
+				442EB59115EE4B5A000532C9 /* HypTenHeartSoundsViewController.h */,
+				442EB59215EE4B5B000532C9 /* HypTenHeartSoundsViewController.m */,
+				442EB59615EFB542000532C9 /* HypTenHSInfoViewController.h */,
+				442EB59715EFB544000532C9 /* HypTenHSInfoViewController.m */,
+			);
+			name = "Hypertension (36)";
+			sourceTree = "<group>";
+		};
+		CF53B9D5120862540067F085 /* Aortic Valve Sclerosis (49) */ = {
+			isa = PBXGroup;
+			children = (
+				CF53B9D6120862540067F085 /* AorValSclAppearanceViewController.h */,
+				CF53B9D7120862540067F085 /* AorValSclAppearanceViewController.m */,
+				CF53B9D8120862540067F085 /* AorValSclJVPViewController.h */,
+				CF53B9D9120862540067F085 /* AorValSclJVPViewController.m */,
+				CF53B9DA120862540067F085 /* AorValSclAPViewController.h */,
+				CF53B9DB120862540067F085 /* AorValSclAPViewController.m */,
+				CF53B9DC120862540067F085 /* AorValSlcPreCorViewController.h */,
+				CF53B9DD120862540067F085 /* AorValSlcPreCorViewController.m */,
+				CF53B9DE120862540067F085 /* AorValSclHeartSounds.h */,
+				CF53B9DF120862540067F085 /* AorValSclHeartSounds.m */,
+				CF53B9E0120862540067F085 /* AorValSclHSInfoViewController.h */,
+				CF53B9E1120862540067F085 /* AorValSclHSInfoViewController.m */,
+				CF53B9E2120862540067F085 /* AorValSclFinalViewController.h */,
+				CF53B9E3120862540067F085 /* AorValSclFinalViewController.m */,
+			);
+			name = "Aortic Valve Sclerosis (49)";
+			sourceTree = "<group>";
+		};
+		CF53B9E4120862540067F085 /* Innocent Murmer (22) */ = {
+			isa = PBXGroup;
+			children = (
+				CF53B9E5120862540067F085 /* InMurAppearenceViewController.h */,
+				CF53B9E6120862540067F085 /* InMurAppearenceViewController.m */,
+				CF53B9E7120862540067F085 /* InMurJVPViewController.h */,
+				CF53B9E8120862540067F085 /* InMurJVPViewController.m */,
+				CF53B9E9120862540067F085 /* InMurAPViewController.h */,
+				CF53B9EA120862540067F085 /* InMurAPViewController.m */,
+				CF53B9EB120862540067F085 /* InMurPreCorViewController.h */,
+				CF53B9EC120862540067F085 /* InMurPreCorViewController.m */,
+				CF53B9ED120862540067F085 /* InMurHeartSoundsViewContoller.h */,
+				F923592D134CE6FE00FE11C9 /* InMurHeartSoundsViewContoller.m */,
+				CF53B9EF120862540067F085 /* InMurHSInfoViewController.h */,
+				CF53B9F0120862540067F085 /* InMurHSInfoViewController.m */,
+				CF53B9F1120862540067F085 /* InMurFinalViewController.h */,
+				CF53B9F2120862540067F085 /* InMurFinalViewController.m */,
+			);
+			name = "Innocent Murmer (22)";
+			sourceTree = "<group>";
+		};
+		CF53B9F3120862540067F085 /* Normal (46) */ = {
+			isa = PBXGroup;
+			children = (
+				CF53B9F4120862540067F085 /* NormalAppearenceViewController.h */,
+				CF53B9F5120862540067F085 /* NormalAppearenceViewController.m */,
+				CF53B9F6120862540067F085 /* NormalLungSoundsViewController.h */,
+				CF53B9F7120862540067F085 /* NormalLungSoundsViewController.m */,
+				CF53B9F8120862540067F085 /* NormalHeartSoundsViewController.h */,
+				CF53B9F9120862540067F085 /* NormalHeartSoundsViewController.m */,
+				CF53B9FA120862540067F085 /* NormalLSInfoViewController.h */,
+				CF53B9FB120862540067F085 /* NormalLSInfoViewController.m */,
+				CF53B9FC120862540067F085 /* NormalJVPViewController.h */,
+				CF53B9FD120862540067F085 /* NormalJVPViewController.m */,
+				CF53B9FE120862540067F085 /* NormalAPViewController.h */,
+				CF53B9FF120862540067F085 /* NormalAPViewController.m */,
+				CF53BA00120862540067F085 /* NormalPreCordViewController.h */,
+				CF53BA01120862540067F085 /* NormalPreCordViewController.m */,
+				CF53BA02120862540067F085 /* NormalFinalViewController.h */,
+				CF53BA03120862540067F085 /* NormalFinalViewController.m */,
+				CF53BA04120862540067F085 /* NormalHSInfoViewController.h */,
+				CF53BA05120862540067F085 /* NormalHSInfoViewController.m */,
+			);
+			name = "Normal (46)";
+			sourceTree = "<group>";
+		};
+		CF53BA06120862540067F085 /* Intro (44) */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA07120862540067F085 /* IntroLungSoundsViewController.h */,
+				CF53BA08120862540067F085 /* IntroLungSoundsViewController.m */,
+				CF53BA09120862540067F085 /* IntroLSInfoViewController.h */,
+				CF53BA0A120862540067F085 /* IntroLSInfoViewController.m */,
+				CF53BA0B120862540067F085 /* IntroAppearenceViewController.h */,
+				CF53BA0C120862540067F085 /* IntroAppearenceViewController.m */,
+				CF53BA0D120862540067F085 /* IntroHeartSoundsViewController.h */,
+				CF53BA0E120862540067F085 /* IntroHeartSoundsViewController.m */,
+				CF53BA0F120862540067F085 /* IntroHSInfoViewController.h */,
+				CF53BA10120862540067F085 /* IntroHSInfoViewController.m */,
+				CF53BA11120862540067F085 /* IntroJVPViewController.h */,
+				CF53BA12120862540067F085 /* IntroJVPViewController.m */,
+				CF53BA13120862540067F085 /* IntroPreCordViewController.h */,
+				CF53BA14120862540067F085 /* IntroPreCordViewController.m */,
+				CF53BA15120862540067F085 /* IntroAPViewController.h */,
+				CF53BA16120862540067F085 /* IntroAPViewController.m */,
+				CF53BA17120862540067F085 /* IntroFinalViewController.h */,
+				CF53BA18120862540067F085 /* IntroFinalViewController.m */,
+				CF53BA19120862540067F085 /* IntroFinalDViewController.h */,
+				CF53BA1A120862540067F085 /* IntroFinalDViewController.m */,
+				CF53BA1C120862540067F085 /* IntroShakeViewController.h */,
+				CF53BA1D120862540067F085 /* IntroShakeViewController.m */,
+				CF53BA1E120862540067F085 /* IntroShakeViewController.xib */,
+			);
+			name = "Intro (44)";
+			sourceTree = "<group>";
+		};
+		CF53BA55120862810067F085 /* Prog Sel */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5A615EFDD5E000532C9 /* Angina (39) */,
+				CF2C6941120C872E0088CE3E /* Hypertension (36) */,
+				CF53B9F3120862540067F085 /* Normal (46) */,
+				CF53BA06120862540067F085 /* Intro (44) */,
+				CF53B9E4120862540067F085 /* Innocent Murmer (22) */,
+				CF53B9D5120862540067F085 /* Aortic Valve Sclerosis (49) */,
+				CF53BA561208629C0067F085 /* AIMITableViewController.h */,
+				CF53BA571208629C0067F085 /* AIMITableViewController.m */,
+				CF53BA431208626D0067F085 /* IntroTableViewController.h */,
+				CF53BA441208626D0067F085 /* IntroTableViewController.m */,
+				CF53BA451208626D0067F085 /* NormalTableViewController.h */,
+				CF53BA461208626D0067F085 /* NormalTableViewController.m */,
+				CF53BA471208626D0067F085 /* AorValSclTableViewController.h */,
+				CF53BA481208626D0067F085 /* AorValSclTableViewController.m */,
+				CF53BA491208626D0067F085 /* HypTenTableViewController.h */,
+				CF53BA4A1208626D0067F085 /* HypTenTableViewController.m */,
+				CF53BA4B1208626D0067F085 /* AngPecTableViewController.h */,
+				CF53BA4C1208626D0067F085 /* AngPecTableViewController.m */,
+				CF53BA4D1208626D0067F085 /* InMurTableViewController.h */,
+				CF53BA4E1208626D0067F085 /* InMurTableViewController.m */,
+			);
+			name = "Prog Sel";
+			sourceTree = "<group>";
+		};
+		CF53BA67120862C90067F085 /* Prog Sel */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA59120862C60067F085 /* AorValSclTableViewController.xib */,
+				CF53BA5A120862C60067F085 /* IntroTableViewController.xib */,
+				CF53BA5B120862C60067F085 /* NormalTableViewController.xib */,
+				CF53BA5C120862C60067F085 /* InMurTableViewController.xib */,
+				CF53BA5D120862C60067F085 /* HypTenTableViewController.xib */,
+				CF53BA5E120862C60067F085 /* AngPecTableViewController.xib */,
+				CF53BA5F120862C60067F085 /* AIMITableViewController.xib */,
+			);
+			name = "Prog Sel";
+			sourceTree = "<group>";
+		};
+		CF53BA73120863400067F085 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5EE15F28E6C000532C9 /* S3.mov */,
+				CF53BA74120863400067F085 /* mit.mov */,
+				442EB5F015F3C769000532C9 /* S4.mov */,
+				CF53BA75120863400067F085 /* tri.mov */,
+				CF53BA76120863400067F085 /* pul.mov */,
+				CF53BA77120863400067F085 /* S1-S2 Filling Animation.mov */,
+			);
+			name = Video;
+			sourceTree = "<group>";
+		};
+		CF53BA78120863400067F085 /* AorValScl */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA79120863400067F085 /* AorValSclAppearanceViewController.xib */,
+				CF53BA7A120863400067F085 /* AorValSclJVPViewController.xib */,
+				CF53BA7B120863400067F085 /* AorValSclAPViewController.xib */,
+				CF53BA7C120863400067F085 /* AorValSlcPreCorViewController.xib */,
+				CF53BA7D120863400067F085 /* AorValSclHeartSounds.xib */,
+				CF53BA7E120863400067F085 /* AorValSclHSInfoViewController.xib */,
+				CF53BA7F120863400067F085 /* AorValSclFinalViewController.xib */,
+			);
+			name = AorValScl;
+			sourceTree = "<group>";
+		};
+		CF53BA80120863400067F085 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				442EB5CB15F042B0000532C9 /* 39AngPec */,
+				CF53BA81120863400067F085 /* 22InnMur */,
+				CF53BA84120863400067F085 /* 36HyperTen */,
+				CF53BA88120863400067F085 /* 44Intro */,
+				CF53BA90120863410067F085 /* 46Normal */,
+				CF53BA96120863410067F085 /* 49AorValSten */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		CF53BA81120863400067F085 /* 22InnMur */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA82120863400067F085 /* Card */,
+			);
+			path = 22InnMur;
+			sourceTree = "<group>";
+		};
+		CF53BA82120863400067F085 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4417431215B823FB0075246D /* P22.mp3 */,
+				CF53BA83120863400067F085 /* 22Pulmonic.m4a */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		CF53BA84120863400067F085 /* 36HyperTen */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA85120863400067F085 /* Card */,
+			);
+			path = 36HyperTen;
+			sourceTree = "<group>";
+		};
+		CF53BA85120863400067F085 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4417431715B824F00075246D /* t36.mp3 */,
+				4417431515B824DC0075246D /* m36.mp3 */,
+				CF53BA86120863400067F085 /* 36Mitral.m4a */,
+				CF53BA87120863400067F085 /* 36Tri.m4a */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		CF53BA88120863400067F085 /* 44Intro */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA89120863400067F085 /* Card */,
+				CF53BA8E120863410067F085 /* Pulm */,
+			);
+			path = 44Intro;
+			sourceTree = "<group>";
+		};
+		CF53BA89120863400067F085 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4417431F15B825740075246D /* m44.mp3 */,
+				4417431D15B825630075246D /* t44.mp3 */,
+				4417431B15B825590075246D /* p44.mp3 */,
+				4417431915B8254F0075246D /* a44.mp3 */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		CF53BA8E120863410067F085 /* Pulm */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA8F120863410067F085 /* 44Lung.m4a */,
+			);
+			path = Pulm;
+			sourceTree = "<group>";
+		};
+		CF53BA90120863410067F085 /* 46Normal */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA91120863410067F085 /* Card */,
+			);
+			path = 46Normal;
+			sourceTree = "<group>";
+		};
+		CF53BA91120863410067F085 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4417432715B825D90075246D /* t46.mp3 */,
+				4417432515B825CB0075246D /* p46.mp3 */,
+				4417432315B825C10075246D /* m46.mp3 */,
+				4417432115B825B90075246D /* a46.mp3 */,
+				CF53BA92120863410067F085 /* 46Aortic.m4a */,
+				CF53BA93120863410067F085 /* 46Mitral.m4a */,
+				CF53BA94120863410067F085 /* 46Pulmonic.m4a */,
+				CF53BA95120863410067F085 /* 46Tri.m4a */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		CF53BA96120863410067F085 /* 49AorValSten */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BA97120863410067F085 /* Card */,
+			);
+			path = 49AorValSten;
+			sourceTree = "<group>";
+		};
+		CF53BA97120863410067F085 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				4417432D15B8260B0075246D /* p49.mp3 */,
+				4417432B15B826030075246D /* m49.mp3 */,
+				4417432915B825FA0075246D /* a49.mp3 */,
+				CF53BA98120863410067F085 /* 49Aortic.m4a */,
+				CF53BA99120863410067F085 /* 49Mitral.m4a */,
+				CF53BA9A120863410067F085 /* 49Pulmonic.m4a */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
+		CF53BA9B120863410067F085 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C693D120C85270088CE3E /* Default.png */,
+				CF53BA9D120863410067F085 /* newicon.png */,
+				4410F16C15BDBE6D00485635 /* Default@2x.png */,
+				CF53BA9E120863410067F085 /* ChadChest.png */,
+				442EB5B315EFEA15000532C9 /* 39 */,
+				CF53BA9F120863410067F085 /* 22 */,
+				CF53BAA8120863420067F085 /* 36 */,
+				CF53BAB0120863420067F085 /* 49 */,
+				446BD8F615DD77C8002893E9 /* 44 */,
+				CF53BAB8120863420067F085 /* 46 */,
+				CF53BAC1120863420067F085 /* breath.png */,
+				CF53BAC8120863420067F085 /* Thumbs.db */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF53BA9F120863410067F085 /* 22 */ = {
+			isa = PBXGroup;
+			children = (
+				442EB54315ED06BC000532C9 /* 22AOR.png */,
+				442EB54415ED06BC000532C9 /* 22AP.png */,
+				442EB54515ED06BC000532C9 /* 22JVP.png */,
+				442EB54615ED06BC000532C9 /* 22MIT.png */,
+				442EB54715ED06BC000532C9 /* 22PRECOR.png */,
+				442EB54815ED06BC000532C9 /* 22PUL.png */,
+				442EB54915ED06BC000532C9 /* 22TRI.png */,
+				CF53BAA7120863420067F085 /* Thumbs.db */,
+			);
+			path = 22;
+			sourceTree = "<group>";
+		};
+		CF53BAA8120863420067F085 /* 36 */ = {
+			isa = PBXGroup;
+			children = (
+				442EB55115ED194F000532C9 /* 36AOR.png */,
+				442EB55215ED194F000532C9 /* 36AP.png */,
+				442EB55315ED194F000532C9 /* 36JVP.png */,
+				442EB55415ED194F000532C9 /* 36MIT.png */,
+				442EB55515ED194F000532C9 /* 36PRECOR.png */,
+				442EB55615ED194F000532C9 /* 36PUL.png */,
+				442EB55715ED194F000532C9 /* 36TRI.png */,
+			);
+			path = 36;
+			sourceTree = "<group>";
+		};
+		CF53BAB0120863420067F085 /* 49 */ = {
+			isa = PBXGroup;
+			children = (
+				442EB55F15ED31A9000532C9 /* 49AOR.png */,
+				442EB56015ED31A9000532C9 /* 49AP.png */,
+				442EB56115ED31A9000532C9 /* 49JVP.png */,
+				442EB56215ED31A9000532C9 /* 49MIT.png */,
+				442EB56315ED31A9000532C9 /* 49PRECOR.png */,
+				442EB56415ED31A9000532C9 /* 49PUL.png */,
+				442EB56515ED31A9000532C9 /* 49TRI.png */,
+			);
+			path = 49;
+			sourceTree = "<group>";
+		};
+		CF53BAB8120863420067F085 /* 46 */ = {
+			isa = PBXGroup;
+			children = (
+				442EB56F15ED3401000532C9 /* 46JVP.png */,
+				442EB56D15ED33EF000532C9 /* 46AP.png */,
+				442EB57115ED3421000532C9 /* 46MIT.png */,
+				446BD8F415DD6E8A002893E9 /* 46TRI.png */,
+				446BD8EC15DD65DD002893E9 /* 46AOR.png */,
+				446BD8EA15DD632B002893E9 /* 46PRECORD.png */,
+				446BD8F215DD6CC8002893E9 /* 46PUL.png */,
+			);
+			path = 46;
+			sourceTree = "<group>";
+		};
+		CF53BACA120863420067F085 /* InMur */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BACB120863420067F085 /* InMurHeartSoundsViewContoller.xib */,
+				CF53BACC120863420067F085 /* InMurFinalViewController.xib */,
+				CF53BACD120863420067F085 /* InMurHSInfoViewController.xib */,
+				CF53BACE120863420067F085 /* InMurJVPViewController.xib */,
+				CF53BACF120863420067F085 /* InMurAPViewController.xib */,
+				CF53BAD0120863420067F085 /* InMurAppearenceViewController.xib */,
+				CF53BAD1120863420067F085 /* InMurPreCorViewController.xib */,
+			);
+			name = InMur;
+			sourceTree = "<group>";
+		};
+		CF53BAD2120863420067F085 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BAD3120863420067F085 /* NormalLSInfoViewController.xib */,
+				CF53BAD4120863420067F085 /* NormalAPViewController.xib */,
+				CF53BAD5120863420067F085 /* NormalPreCordViewController.xib */,
+				CF53BAD6120863420067F085 /* NormalHSInfoViewController.xib */,
+				CF53BAD7120863420067F085 /* NormalLungSoundsViewController.xib */,
+				CF53BAD8120863420067F085 /* NormalFinalViewController.xib */,
+				CF53BAD9120863420067F085 /* NormalHeartSoundsViewController.xib */,
+				CF53BADA120863420067F085 /* NormalAppearenceViewController.xib */,
+				CF53BADB120863420067F085 /* NormalJVPViewController.xib */,
+			);
+			name = Normal;
+			sourceTree = "<group>";
+		};
+		CF53BADC120863420067F085 /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BADD120863420067F085 /* IntroLSInfoViewController.xib */,
+				CF53BADE120863420067F085 /* IntroHeartSoundsViewController.xib */,
+				CF53BADF120863420067F085 /* IntroJVPViewController.xib */,
+				CF53BAE0120863420067F085 /* IntroLungSoundsViewController.xib */,
+				CF53BAE1120863420067F085 /* IntroAppearenceViewController.xib */,
+				CF53BAE2120863420067F085 /* IntroHSInfoViewController.xib */,
+				CF53BAE3120863420067F085 /* IntroAPViewController.xib */,
+				CF53BAE4120863420067F085 /* IntroPreCordViewController.xib */,
+				CF53BAE5120863420067F085 /* IntroFinalViewController.xib */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		CF53BB9B120871DE0067F085 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				CF53BBC0120877820067F085 /* QIntroTableViewControler.h */,
+				CF53BBC1120877820067F085 /* QIntroTableViewControler.m */,
+				CF53BBF812087DF50067F085 /* QNormalTableViewController.h */,
+				CF53BBF912087DF50067F085 /* QNormalTableViewController.m */,
+				CF53BBFD12087E8A0067F085 /* QNormalFinalViewController.h */,
+				CF53BBFE12087E8A0067F085 /* QNormalFinalViewController.m */,
+				CFB86DAC1209C2E600B0F736 /* QInMurFinalViewController.h */,
+				CFB86DAD1209C2E600B0F736 /* QInMurFinalViewController.m */,
+				CFB86DB11209C30600B0F736 /* QInMurTableViewController.h */,
+				CFB86DB21209C30600B0F736 /* QInMurTableViewController.m */,
+				CF2C68DE120C78EF0088CE3E /* QAorValSclFinalViewController.h */,
+				CF2C68DF120C78EF0088CE3E /* QAorValSclFinalViewController.m */,
+				CF2C68E3120C795D0088CE3E /* QAorValSclTableViewController.h */,
+				CF2C68E4120C795D0088CE3E /* QAorValSclTableViewController.m */,
+				442EB59B15EFC507000532C9 /* QHypTenTableViewController.h */,
+				442EB59C15EFC507000532C9 /* QHypTenTableViewController.m */,
+				442EB5A015EFD203000532C9 /* QHypTenFinalViewController.h */,
+				442EB5A115EFD203000532C9 /* QHypTenFinalViewController.m */,
+				442EB5E415F120F6000532C9 /* QAngPecTableViewController.h */,
+				442EB5E515F120F8000532C9 /* QAngPecTableViewController.m */,
+				442EB5E915F13057000532C9 /* QAngPecFinalViewController.h */,
+				442EB5EA15F13059000532C9 /* QAngPecFinalViewController.m */,
+				442EB5EB15F1305B000532C9 /* QAngPecFinalViewController.xib */,
+				442EB5E615F120F9000532C9 /* QAngPecTableViewController.xib */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* iHarveyMedStu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iHarveyMedStu" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iHarveyMedStu;
+			productName = iHarveyMedStu;
+			productReference = 1D6058910D05DD3D006BFB54 /* iHarveyMedStu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iHarveyMedStu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* iHarveyMedStu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4493660C15FA35C5002D58C8 /* AppboyKit.framework in Resources */,
+				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
+				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				CF53B9AE1208556E0067F085 /* ProSelTableViewController.xib in Resources */,
+				CF53B9B7120856FA0067F085 /* QuizViewController.xib in Resources */,
+				CF53B9C812085A800067F085 /* AboutViewController.xib in Resources */,
+				CF53BA40120862540067F085 /* IntroFinalDViewController.xib in Resources */,
+				CF53BA42120862540067F085 /* IntroShakeViewController.xib in Resources */,
+				CF53BA60120862C60067F085 /* AorValSclTableViewController.xib in Resources */,
+				CF53BA61120862C60067F085 /* IntroTableViewController.xib in Resources */,
+				CF53BA62120862C60067F085 /* NormalTableViewController.xib in Resources */,
+				CF53BA63120862C60067F085 /* InMurTableViewController.xib in Resources */,
+				CF53BA64120862C60067F085 /* HypTenTableViewController.xib in Resources */,
+				CF53BA65120862C60067F085 /* AngPecTableViewController.xib in Resources */,
+				CF53BA66120862C60067F085 /* AIMITableViewController.xib in Resources */,
+				CF53BAE6120863420067F085 /* mit.mov in Resources */,
+				CF53BAE7120863420067F085 /* tri.mov in Resources */,
+				CF53BAE8120863420067F085 /* pul.mov in Resources */,
+				CF53BAE9120863420067F085 /* S1-S2 Filling Animation.mov in Resources */,
+				CF53BAEA120863420067F085 /* AorValSclAppearanceViewController.xib in Resources */,
+				CF53BAEB120863420067F085 /* AorValSclJVPViewController.xib in Resources */,
+				CF53BAEC120863420067F085 /* AorValSclAPViewController.xib in Resources */,
+				CF53BAED120863420067F085 /* AorValSlcPreCorViewController.xib in Resources */,
+				CF53BAEE120863420067F085 /* AorValSclHeartSounds.xib in Resources */,
+				CF53BAEF120863420067F085 /* AorValSclHSInfoViewController.xib in Resources */,
+				CF53BAF0120863420067F085 /* AorValSclFinalViewController.xib in Resources */,
+				CF53BAF1120863420067F085 /* 22Pulmonic.m4a in Resources */,
+				CF53BAF2120863420067F085 /* 36Mitral.m4a in Resources */,
+				CF53BAF3120863420067F085 /* 36Tri.m4a in Resources */,
+				CF53BAF8120863420067F085 /* 44Lung.m4a in Resources */,
+				CF53BAF9120863420067F085 /* 46Aortic.m4a in Resources */,
+				CF53BAFA120863420067F085 /* 46Mitral.m4a in Resources */,
+				CF53BAFB120863420067F085 /* 46Pulmonic.m4a in Resources */,
+				CF53BAFC120863420067F085 /* 46Tri.m4a in Resources */,
+				CF53BAFD120863420067F085 /* 49Aortic.m4a in Resources */,
+				CF53BAFE120863420067F085 /* 49Mitral.m4a in Resources */,
+				CF53BAFF120863420067F085 /* 49Pulmonic.m4a in Resources */,
+				CF53BB01120863420067F085 /* newicon.png in Resources */,
+				CF53BB02120863420067F085 /* ChadChest.png in Resources */,
+				CF53BB0A120863420067F085 /* Thumbs.db in Resources */,
+				CF53BB21120863420067F085 /* breath.png in Resources */,
+				CF53BB2A120863420067F085 /* InMurHeartSoundsViewContoller.xib in Resources */,
+				CF53BB2B120863420067F085 /* InMurFinalViewController.xib in Resources */,
+				CF53BB2C120863420067F085 /* InMurHSInfoViewController.xib in Resources */,
+				CF53BB2D120863420067F085 /* InMurJVPViewController.xib in Resources */,
+				CF53BB2E120863420067F085 /* InMurAPViewController.xib in Resources */,
+				CF53BB2F120863420067F085 /* InMurAppearenceViewController.xib in Resources */,
+				CF53BB30120863420067F085 /* InMurPreCorViewController.xib in Resources */,
+				CF53BB31120863420067F085 /* NormalLSInfoViewController.xib in Resources */,
+				CF53BB32120863420067F085 /* NormalAPViewController.xib in Resources */,
+				CF53BB33120863420067F085 /* NormalPreCordViewController.xib in Resources */,
+				CF53BB34120863420067F085 /* NormalHSInfoViewController.xib in Resources */,
+				CF53BB35120863420067F085 /* NormalLungSoundsViewController.xib in Resources */,
+				CF53BB36120863420067F085 /* NormalFinalViewController.xib in Resources */,
+				CF53BB37120863420067F085 /* NormalHeartSoundsViewController.xib in Resources */,
+				CF53BB38120863420067F085 /* NormalAppearenceViewController.xib in Resources */,
+				CF53BB39120863420067F085 /* NormalJVPViewController.xib in Resources */,
+				CF53BB3A120863420067F085 /* IntroLSInfoViewController.xib in Resources */,
+				CF53BB3B120863420067F085 /* IntroHeartSoundsViewController.xib in Resources */,
+				CF53BB3C120863420067F085 /* IntroJVPViewController.xib in Resources */,
+				CF53BB3D120863420067F085 /* IntroLungSoundsViewController.xib in Resources */,
+				CF53BB3E120863420067F085 /* IntroAppearenceViewController.xib in Resources */,
+				CF53BB3F120863420067F085 /* IntroHSInfoViewController.xib in Resources */,
+				CF53BB40120863420067F085 /* IntroAPViewController.xib in Resources */,
+				CF53BB41120863420067F085 /* IntroPreCordViewController.xib in Resources */,
+				CF53BB42120863420067F085 /* IntroFinalViewController.xib in Resources */,
+				CF53BBC4120877820067F085 /* QIntroTableViewControler.xib in Resources */,
+				CF53BBFC12087DF50067F085 /* QNormalTableViewController.xib in Resources */,
+				CF53BC0112087E8A0067F085 /* QNormalFinalViewController.xib in Resources */,
+				CFB86DB01209C2E600B0F736 /* QInMurFinalViewController.xib in Resources */,
+				CFB86DB51209C30600B0F736 /* QInMurTableViewController.xib in Resources */,
+				CF2C68E2120C78EF0088CE3E /* QAorValSclFinalViewController.xib in Resources */,
+				CF2C68E7120C795D0088CE3E /* QAorValSclTableViewController.xib in Resources */,
+				CF2C693E120C85270088CE3E /* Default.png in Resources */,
+				CF2C6948120C89250088CE3E /* HypTenAppearanceViewController.xib in Resources */,
+				4417431315B823FB0075246D /* P22.mp3 in Resources */,
+				4417431615B824DC0075246D /* m36.mp3 in Resources */,
+				4417431815B824F00075246D /* t36.mp3 in Resources */,
+				4417431A15B8254F0075246D /* a44.mp3 in Resources */,
+				4417431C15B825590075246D /* p44.mp3 in Resources */,
+				4417431E15B825630075246D /* t44.mp3 in Resources */,
+				4417432015B825740075246D /* m44.mp3 in Resources */,
+				4417432215B825B90075246D /* a46.mp3 in Resources */,
+				4417432415B825C10075246D /* m46.mp3 in Resources */,
+				4417432615B825CB0075246D /* p46.mp3 in Resources */,
+				4417432815B825D90075246D /* t46.mp3 in Resources */,
+				4417432A15B825FA0075246D /* a49.mp3 in Resources */,
+				4417432C15B826030075246D /* m49.mp3 in Resources */,
+				4417432E15B8260B0075246D /* p49.mp3 in Resources */,
+				4410F16D15BDBE6D00485635 /* Default@2x.png in Resources */,
+				446BD8EB15DD632B002893E9 /* 46PRECORD.png in Resources */,
+				446BD8ED15DD65DD002893E9 /* 46AOR.png in Resources */,
+				446BD8F315DD6CC8002893E9 /* 46PUL.png in Resources */,
+				446BD8F515DD6E8A002893E9 /* 46TRI.png in Resources */,
+				446BD8FE15DD787C002893E9 /* 44AOR.png in Resources */,
+				446BD8FF15DD787C002893E9 /* 44AP.png in Resources */,
+				446BD90015DD787C002893E9 /* 44JVP.png in Resources */,
+				446BD90115DD787C002893E9 /* 44MIT.png in Resources */,
+				446BD90215DD787C002893E9 /* 44PRECORD.png in Resources */,
+				446BD90315DD787C002893E9 /* 44PUL.png in Resources */,
+				446BD90415DD787C002893E9 /* 44TRI.png in Resources */,
+				442EB54A15ED06BC000532C9 /* 22AOR.png in Resources */,
+				442EB54B15ED06BC000532C9 /* 22AP.png in Resources */,
+				442EB54C15ED06BC000532C9 /* 22JVP.png in Resources */,
+				442EB54D15ED06BC000532C9 /* 22MIT.png in Resources */,
+				442EB54E15ED06BC000532C9 /* 22PRECOR.png in Resources */,
+				442EB54F15ED06BC000532C9 /* 22PUL.png in Resources */,
+				442EB55015ED06BC000532C9 /* 22TRI.png in Resources */,
+				442EB55815ED194F000532C9 /* 36AOR.png in Resources */,
+				442EB55915ED194F000532C9 /* 36AP.png in Resources */,
+				442EB55A15ED194F000532C9 /* 36JVP.png in Resources */,
+				442EB55B15ED194F000532C9 /* 36MIT.png in Resources */,
+				442EB55C15ED194F000532C9 /* 36PRECOR.png in Resources */,
+				442EB55D15ED194F000532C9 /* 36PUL.png in Resources */,
+				442EB55E15ED194F000532C9 /* 36TRI.png in Resources */,
+				442EB56615ED31A9000532C9 /* 49AOR.png in Resources */,
+				442EB56715ED31A9000532C9 /* 49AP.png in Resources */,
+				442EB56815ED31A9000532C9 /* 49JVP.png in Resources */,
+				442EB56915ED31A9000532C9 /* 49MIT.png in Resources */,
+				442EB56A15ED31A9000532C9 /* 49PRECOR.png in Resources */,
+				442EB56B15ED31A9000532C9 /* 49PUL.png in Resources */,
+				442EB56C15ED31A9000532C9 /* 49TRI.png in Resources */,
+				442EB56E15ED33EF000532C9 /* 46AP.png in Resources */,
+				442EB57015ED3401000532C9 /* 46JVP.png in Resources */,
+				442EB57215ED3421000532C9 /* 46MIT.png in Resources */,
+				442EB57715ED38D4000532C9 /* HypTenLungSoundsViewController.xib in Resources */,
+				442EB58115EE4112000532C9 /* HypTenJVPViewController.xib in Resources */,
+				442EB58615EE44A3000532C9 /* HypTenAPViewController.xib in Resources */,
+				442EB58B15EE46F2000532C9 /* HypTenPreCordViewController.xib in Resources */,
+				442EB59015EE49AF000532C9 /* HypTenFinalViewController.xib in Resources */,
+				442EB59515EE4B5D000532C9 /* HypTenHeartSoundsViewController.xib in Resources */,
+				442EB59A15EFB546000532C9 /* HypTenHSInfoViewController.xib in Resources */,
+				442EB59F15EFC509000532C9 /* QHypTenTableViewController.xib in Resources */,
+				442EB5A415EFD205000532C9 /* QHypTenFinalViewController.xib in Resources */,
+				442EB5AB15EFDD90000532C9 /* AngPecAppearanceViewController.xib in Resources */,
+				442EB5B015EFE001000532C9 /* AngPecJVPViewController.xib in Resources */,
+				442EB5B815EFEA17000532C9 /* 39AP.png in Resources */,
+				442EB5B915EFEA17000532C9 /* 39CATD.png in Resources */,
+				442EB5BA15EFEA17000532C9 /* 39JVP.png in Resources */,
+				442EB5BB15EFEA17000532C9 /* 39PRECORD.png in Resources */,
+				442EB5C015EFEEFB000532C9 /* AngPecAPViewController.xib in Resources */,
+				442EB5C515EFF142000532C9 /* AngPecPreCordViewController.xib in Resources */,
+				442EB5CA15EFF3B4000532C9 /* AngPecHeartSoundsViewController.xib in Resources */,
+				442EB5CD15F04320000532C9 /* a39.mp3 in Resources */,
+				442EB5CF15F0432A000532C9 /* m39.mp3 in Resources */,
+				442EB5D115F0433A000532C9 /* p39.mp3 in Resources */,
+				442EB5D315F04344000532C9 /* t39.mp3 in Resources */,
+				442EB5D815F0450A000532C9 /* AngPecHSInfoViewController.xib in Resources */,
+				442EB5DD15F1012D000532C9 /* AngPecCarAusViewController.xib in Resources */,
+				442EB5E315F11CE3000532C9 /* AngPecFinalViewController.xib in Resources */,
+				442EB5E815F120FA000532C9 /* QAngPecTableViewController.xib in Resources */,
+				442EB5ED15F1305C000532C9 /* QAngPecFinalViewController.xib in Resources */,
+				442EB5EF15F28E6C000532C9 /* S3.mov in Resources */,
+				442EB5F115F3C769000532C9 /* S4.mov in Resources */,
+				4420EB3915F5B20B0033E016 /* README.txt in Resources */,
+				4420EB3A15F5B20B0033E016 /* release_notes.txt in Resources */,
+				4420EB4815F7A91B0033E016 /* icon.png in Resources */,
+				4420EB4A15F7A96A0033E016 /* ricon.png in Resources */,
+				448F162D162E2F52001BE4EE /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* iHarveyMedStuAppDelegate.m in Sources */,
+				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				CF53B9AD1208556E0067F085 /* ProSelTableViewController.m in Sources */,
+				CF53B9B6120856FA0067F085 /* QuizViewController.m in Sources */,
+				CF53B9C712085A800067F085 /* AboutViewController.m in Sources */,
+				CF53BA1F120862540067F085 /* AorValSclAppearanceViewController.m in Sources */,
+				CF53BA20120862540067F085 /* AorValSclJVPViewController.m in Sources */,
+				CF53BA21120862540067F085 /* AorValSclAPViewController.m in Sources */,
+				CF53BA22120862540067F085 /* AorValSlcPreCorViewController.m in Sources */,
+				CF53BA23120862540067F085 /* AorValSclHeartSounds.m in Sources */,
+				CF53BA24120862540067F085 /* AorValSclHSInfoViewController.m in Sources */,
+				CF53BA25120862540067F085 /* AorValSclFinalViewController.m in Sources */,
+				CF53BA26120862540067F085 /* InMurAppearenceViewController.m in Sources */,
+				CF53BA27120862540067F085 /* InMurJVPViewController.m in Sources */,
+				CF53BA28120862540067F085 /* InMurAPViewController.m in Sources */,
+				CF53BA29120862540067F085 /* InMurPreCorViewController.m in Sources */,
+				CF53BA2B120862540067F085 /* InMurHSInfoViewController.m in Sources */,
+				CF53BA2C120862540067F085 /* InMurFinalViewController.m in Sources */,
+				CF53BA2D120862540067F085 /* NormalAppearenceViewController.m in Sources */,
+				CF53BA2E120862540067F085 /* NormalLungSoundsViewController.m in Sources */,
+				CF53BA2F120862540067F085 /* NormalHeartSoundsViewController.m in Sources */,
+				CF53BA30120862540067F085 /* NormalLSInfoViewController.m in Sources */,
+				CF53BA31120862540067F085 /* NormalJVPViewController.m in Sources */,
+				CF53BA32120862540067F085 /* NormalAPViewController.m in Sources */,
+				CF53BA33120862540067F085 /* NormalPreCordViewController.m in Sources */,
+				CF53BA34120862540067F085 /* NormalFinalViewController.m in Sources */,
+				CF53BA35120862540067F085 /* NormalHSInfoViewController.m in Sources */,
+				CF53BA36120862540067F085 /* IntroLungSoundsViewController.m in Sources */,
+				CF53BA37120862540067F085 /* IntroLSInfoViewController.m in Sources */,
+				CF53BA38120862540067F085 /* IntroAppearenceViewController.m in Sources */,
+				CF53BA39120862540067F085 /* IntroHeartSoundsViewController.m in Sources */,
+				CF53BA3A120862540067F085 /* IntroHSInfoViewController.m in Sources */,
+				CF53BA3B120862540067F085 /* IntroJVPViewController.m in Sources */,
+				CF53BA3C120862540067F085 /* IntroPreCordViewController.m in Sources */,
+				CF53BA3D120862540067F085 /* IntroAPViewController.m in Sources */,
+				CF53BA3E120862540067F085 /* IntroFinalViewController.m in Sources */,
+				CF53BA3F120862540067F085 /* IntroFinalDViewController.m in Sources */,
+				CF53BA41120862540067F085 /* IntroShakeViewController.m in Sources */,
+				CF53BA4F1208626D0067F085 /* IntroTableViewController.m in Sources */,
+				CF53BA501208626D0067F085 /* NormalTableViewController.m in Sources */,
+				CF53BA511208626D0067F085 /* AorValSclTableViewController.m in Sources */,
+				CF53BA521208626D0067F085 /* HypTenTableViewController.m in Sources */,
+				CF53BA531208626D0067F085 /* AngPecTableViewController.m in Sources */,
+				CF53BA541208626D0067F085 /* InMurTableViewController.m in Sources */,
+				CF53BA581208629C0067F085 /* AIMITableViewController.m in Sources */,
+				CF53BBC3120877820067F085 /* QIntroTableViewControler.m in Sources */,
+				CF53BBFB12087DF50067F085 /* QNormalTableViewController.m in Sources */,
+				CF53BC0012087E8A0067F085 /* QNormalFinalViewController.m in Sources */,
+				CFB86DAF1209C2E600B0F736 /* QInMurFinalViewController.m in Sources */,
+				CFB86DB41209C30600B0F736 /* QInMurTableViewController.m in Sources */,
+				CF2C68E1120C78EF0088CE3E /* QAorValSclFinalViewController.m in Sources */,
+				CF2C68E6120C795D0088CE3E /* QAorValSclTableViewController.m in Sources */,
+				CF2C6947120C89250088CE3E /* HypTenAppearanceViewController.m in Sources */,
+				F923592E134CE6FE00FE11C9 /* InMurHeartSoundsViewContoller.m in Sources */,
+				442EB57615ED38D4000532C9 /* HypTenLungSoundsViewController.m in Sources */,
+				442EB58015EE4112000532C9 /* HypTenJVPViewController.m in Sources */,
+				442EB58515EE44A3000532C9 /* HypTenAPViewController.m in Sources */,
+				442EB58A15EE46F2000532C9 /* HypTenPreCordViewController.m in Sources */,
+				442EB58F15EE49AF000532C9 /* HypTenFinalViewController.m in Sources */,
+				442EB59415EE4B5D000532C9 /* HypTenHeartSoundsViewController.m in Sources */,
+				442EB59915EFB546000532C9 /* HypTenHSInfoViewController.m in Sources */,
+				442EB59E15EFC509000532C9 /* QHypTenTableViewController.m in Sources */,
+				442EB5A315EFD205000532C9 /* QHypTenFinalViewController.m in Sources */,
+				442EB5AA15EFDD90000532C9 /* AngPecAppearanceViewController.m in Sources */,
+				442EB5AF15EFE001000532C9 /* AngPecJVPViewController.m in Sources */,
+				442EB5BF15EFEEFB000532C9 /* AngPecAPViewController.m in Sources */,
+				442EB5C415EFF142000532C9 /* AngPecPreCordViewController.m in Sources */,
+				442EB5C915EFF3B4000532C9 /* AngPecHeartSoundsViewController.m in Sources */,
+				442EB5D715F0450A000532C9 /* AngPecHSInfoViewController.m in Sources */,
+				442EB5DC15F1012D000532C9 /* AngPecCarAusViewController.m in Sources */,
+				442EB5E215F11CE3000532C9 /* AngPecFinalViewController.m in Sources */,
+				442EB5E715F120FA000532C9 /* QAngPecTableViewController.m in Sources */,
+				442EB5EC15F1305C000532C9 /* QAngPecFinalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christina Adams (N598Y7FFLE)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iHarveyMedStu_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "iHarveyMedStu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1\"",
+					"\"$(SRCROOT)/../../Downloads/AppboyRelease\"",
+					"\"$(SRCROOT)/../AppboyRelease 2\"",
+					"\"$(SRCROOT)/TestFlightSDK1-2\"",
+					"\"$(SRCROOT)/../../Downloads/AppboyRelease 3\"",
+				);
+				PRODUCT_NAME = iHarveyMedStu;
+				PROVISIONING_PROFILE = "95F27CB2-2C3C-45D8-9723-3239005275A6";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADDITIONAL_SDKS = "";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Christina Adams";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iHarveyMedStu_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "iHarveyMedStu-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1\"",
+					"\"$(SRCROOT)/../../Downloads/AppboyRelease\"",
+					"\"$(SRCROOT)/../AppboyRelease 2\"",
+					"\"$(SRCROOT)/TestFlightSDK1-2\"",
+					"\"$(SRCROOT)/../../Downloads/AppboyRelease 3\"",
+				);
+				PRODUCT_NAME = iHarveyMedStu;
+				PROVISIONING_PROFILE = "1B5608EA-3CE2-40AA-B227-E90DE81EE11A";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Christina Adams (N598Y7FFLE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				PROVISIONING_PROFILE = "95F27CB2-2C3C-45D8-9723-3239005275A6";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv6";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Christina Adams";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "6972A5B1-1631-4003-A381-5EF448759584";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "iHarveyMedStu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "iHarveyMedStu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

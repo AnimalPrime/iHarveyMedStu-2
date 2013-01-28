@@ -1,0 +1,23 @@
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:23: error: no declaration of property 'menuListNormal' found in the interface
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m: In function '-[QNormalTableViewController viewDidLoad]':
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:34: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:40: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:53: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:65: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:78: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:93: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:106: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:119: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m: In function '-[QNormalTableViewController viewDidUnload]':
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:147: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m: In function '-[QNormalTableViewController dealloc]':
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:152: error: 'menuListNormal' undeclared (first use in this function)
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:152: error: (Each undeclared identifier is reported only once
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:152: error: for each function it appears in.)
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m: In function '-[QNormalTableViewController tableView:didSelectRowAtIndexPath:]':
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:174: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m: In function '-[QNormalTableViewController tableView:numberOfRowsInSection:]':
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:185: error: request for member 'menuListNormal' in something not a structure or union
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:186: warning: control reaches end of non-void function
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m: In function '-[QNormalTableViewController tableView:cellForRowAtIndexPath:]':
+/Users/christina/Documents/iHarveyMedStu/Classes/QNormalTableViewController.m:198: error: request for member 'menuListNormal' in something not a structure or union
